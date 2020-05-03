@@ -1,1 +1,3 @@
-This is my Digital Electronics class notebook
+### Digital Electronics Notebook
+
+> This is my Digital Electronics class notebook
