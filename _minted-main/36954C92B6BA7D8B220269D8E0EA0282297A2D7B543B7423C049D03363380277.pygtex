@@ -1,0 +1,27 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{library} \PYG{n+nn}{ieee}\PYG{p}{;}
+\PYG{k}{use} \PYG{n+nn}{ieee.std\PYGZus{}logic\PYGZus{}1164.}\PYG{k}{all}\PYG{p}{;}
+
+\PYG{k}{entity} \PYG{n+nc}{ENCODER} \PYG{k}{is}
+    \PYG{k}{port}\PYG{p}{(}\PYG{n}{IR}\PYG{o}{:} \PYG{k}{IN} \PYG{k+kt}{std\PYGZus{}logic}\PYG{p}{;}
+         \PYG{n}{CLK}\PYG{o}{:} \PYG{k}{IN} \PYG{k+kt}{std\PYGZus{}logic}\PYG{p}{;}
+         \PYG{n}{L}\PYG{o}{:} \PYG{k}{OUT} \PYG{k+kt}{std\PYGZus{}logic\PYGZus{}vector}\PYG{p}{(}\PYG{l+m+mi}{3} \PYG{k}{downto} \PYG{l+m+mi}{0}\PYG{p}{)}
+        \PYG{p}{);}
+\PYG{k}{end} \PYG{n+nc}{ENCODER}\PYG{p}{;}
+
+\PYG{k}{architecture} \PYG{n+nc}{ARCH} \PYG{k}{of} \PYG{n+nc}{ENCODER} \PYG{k}{is}
+    \PYG{k}{signal} \PYG{n}{l\PYGZus{}temp}\PYG{o}{:} \PYG{k+kt}{std\PYGZus{}logic\PYGZus{}vector}\PYG{p}{(}\PYG{l+m+mi}{3} \PYG{k}{downto} \PYG{l+m+mi}{0}\PYG{p}{);}
+    \PYG{k}{begin}
+        \PYG{k}{process}\PYG{p}{(}\PYG{n}{CLK}\PYG{p}{)}
+            \PYG{k}{begin}
+                \PYG{k}{if}\PYG{p}{(}\PYG{n}{CLK} \PYG{o}{=} \PYG{l+s+sc}{\PYGZsq{}1\PYGZsq{}} \PYG{k}{AND} \PYG{n}{CLK}\PYG{n+na}{\PYGZsq{}EVENT}\PYG{p}{)} \PYG{k}{then}
+                    \PYG{k}{if} \PYG{n}{IR} \PYG{o}{=} \PYG{l+s+sc}{\PYGZsq{}1\PYGZsq{}} \PYG{k}{then} \PYG{n}{l\PYGZus{}temp} \PYG{o}{\PYGZlt{}=} \PYG{l+s}{\PYGZdq{}0001\PYGZdq{}}\PYG{p}{;}
+                        \PYG{k}{else} \PYG{n}{l\PYGZus{}temp}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)} \PYG{o}{\PYGZlt{}=} \PYG{n}{l\PYGZus{}temp}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+                             \PYG{n}{l\PYGZus{}temp}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)} \PYG{o}{\PYGZlt{}=} \PYG{n}{l\PYGZus{}temp}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{);}
+                             \PYG{n}{l\PYGZus{}temp}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{)} \PYG{o}{\PYGZlt{}=} \PYG{n}{l\PYGZus{}temp}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{);}
+                             \PYG{n}{l\PYGZus{}temp}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{)} \PYG{o}{\PYGZlt{}=} \PYG{n}{l\PYGZus{}temp}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{);} 
+                    \PYG{k}{end} \PYG{k}{if}\PYG{p}{;}
+        \PYG{k}{end} \PYG{k}{process}\PYG{p}{;}
+        \PYG{n}{L} \PYG{o}{\PYGZlt{}=} \PYG{n}{l\PYGZus{}temp}\PYG{p}{;}
+\PYG{k}{end} \PYG{n+nc}{ARCH}\PYG{p}{;}
+\end{Verbatim}

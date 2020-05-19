@@ -2216,6 +2216,26 @@
     <bcf:citekey order="31">ENCODER</bcf:citekey>
     <bcf:citekey order="32">ENCODER</bcf:citekey>
     <bcf:citekey order="33">ENCODER</bcf:citekey>
+    <bcf:citekey order="34">FLOYD</bcf:citekey>
+    <bcf:citekey order="35">FLOYD</bcf:citekey>
+    <bcf:citekey order="36">FLOYD</bcf:citekey>
+    <bcf:citekey order="37">FLOYD</bcf:citekey>
+    <bcf:citekey order="38">FLOYD</bcf:citekey>
+    <bcf:citekey order="39">FLOYD</bcf:citekey>
+    <bcf:citekey order="40">FLOYD</bcf:citekey>
+    <bcf:citekey order="41">FLOYD</bcf:citekey>
+    <bcf:citekey order="42">FLOYD</bcf:citekey>
+    <bcf:citekey order="43">FLOYD</bcf:citekey>
+    <bcf:citekey order="44">FLOYD</bcf:citekey>
+    <bcf:citekey order="45">7-SEGMENT</bcf:citekey>
+    <bcf:citekey order="46">7-SEGMENT</bcf:citekey>
+    <bcf:citekey order="47">7-SEGMENT</bcf:citekey>
+    <bcf:citekey order="48">7-SEGMENT</bcf:citekey>
+    <bcf:citekey order="49">74HC194</bcf:citekey>
+    <bcf:citekey order="50">74HC194</bcf:citekey>
+    <bcf:citekey order="51">74HC194</bcf:citekey>
+    <bcf:citekey order="52">SLIDES_5</bcf:citekey>
+    <bcf:citekey order="53">SLIDES_5</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
