@@ -1,0 +1,290 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{FLOYD}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d707621bff00860337e7468e3c963e1e}{%
+           family={Floyd},
+           familyi={F\bibinitperiod},
+           given={Thomas\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Harlow, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education Canada}%
+      }
+      \strng{namehash}{d707621bff00860337e7468e3c963e1e}
+      \strng{fullhash}{d707621bff00860337e7468e3c963e1e}
+      \strng{bibnamehash}{d707621bff00860337e7468e3c963e1e}
+      \strng{authorbibnamehash}{d707621bff00860337e7468e3c963e1e}
+      \strng{authornamehash}{d707621bff00860337e7468e3c963e1e}
+      \strng{authorfullhash}{d707621bff00860337e7468e3c963e1e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{11}
+      \field{title}{Digital Fundamentals, Global Edition}
+      \field{year}{2015}
+    \endentry
+    \entry{555_DS}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{note}{Rev. 1}
+      \field{number}{NE555}
+      \field{title}{{xx555 Precision Timers}}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/ne555.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/ne555.pdf
+      \endverb
+    \endentry
+    \entry{L293D}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{note}{Rev. D}
+      \field{number}{L293D}
+      \field{title}{L293x Quadruple Half-H Drivers}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/l293.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/l293.pdf
+      \endverb
+    \endentry
+    \entry{SLIDES_3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e4bdbd344ce6e09fb59acba8a233d7fb}{%
+           family={Breijo},
+           familyi={B\bibinitperiod},
+           given={Eduardo\bibnamedelima García},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Valencia, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Politécnica de Valencia}%
+      }
+      \strng{namehash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{fullhash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{bibnamehash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{authorbibnamehash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{authornamehash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{authorfullhash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Digital Electronics}
+      \field{title}{Lecture 3: Counters}
+      \field{year}{2020}
+    \endentry
+    \entry{FSM}{book}{}
+      \name{author}{1}{}{%
+        {{hash=af652c7d2e9138b034c7b8f79c5a0162}{%
+           family={Aubi},
+           familyi={A\bibinitperiod},
+           given={Seth},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Williamsburg, VA, USA}%
+      }
+      \list{publisher}{2}{%
+        {College of William}%
+        {Mary}%
+      }
+      \strng{namehash}{af652c7d2e9138b034c7b8f79c5a0162}
+      \strng{fullhash}{af652c7d2e9138b034c7b8f79c5a0162}
+      \strng{bibnamehash}{af652c7d2e9138b034c7b8f79c5a0162}
+      \strng{authorbibnamehash}{af652c7d2e9138b034c7b8f79c5a0162}
+      \strng{authornamehash}{af652c7d2e9138b034c7b8f79c5a0162}
+      \strng{authorfullhash}{af652c7d2e9138b034c7b8f79c5a0162}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Physics 351: Digital Electronics Lectures}
+      \field{title}{Chapter 6: State Machines}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://bit.ly/State_FSMs
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/State_FSMs
+      \endverb
+    \endentry
+    \entry{AMD}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3c3e26e8aa713550f67eff43d2505964}{%
+           family={{Advanced Micro Devices, AMD}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Sunnyvale, CA, USA}%
+      }
+      \strng{namehash}{3c3e26e8aa713550f67eff43d2505964}
+      \strng{fullhash}{3c3e26e8aa713550f67eff43d2505964}
+      \strng{bibnamehash}{3c3e26e8aa713550f67eff43d2505964}
+      \strng{authorbibnamehash}{3c3e26e8aa713550f67eff43d2505964}
+      \strng{authornamehash}{3c3e26e8aa713550f67eff43d2505964}
+      \strng{authorfullhash}{3c3e26e8aa713550f67eff43d2505964}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{note}{Rev. A}
+      \field{title}{PAL Device Data Book and Design Guide}
+      \field{year}{1993}
+    \endentry
+    \entry{SLIDES_4}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e4bdbd344ce6e09fb59acba8a233d7fb}{%
+           family={Breijo},
+           familyi={B\bibinitperiod},
+           given={Eduardo\bibnamedelima García},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Valencia, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Politécnica de Valencia}%
+      }
+      \strng{namehash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{fullhash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{bibnamehash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{authorbibnamehash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{authornamehash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \strng{authorfullhash}{e4bdbd344ce6e09fb59acba8a233d7fb}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Digital Electronics}
+      \field{title}{Lecture 4: Finite State Machines (FSM)}
+      \field{year}{2020}
+    \endentry
+    \entry{ENCODER}{manual}{}
+      \list{organization}{1}{%
+        {Grayhill}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{note}{25LB10-Q}
+      \field{title}{Series 25L: Hex, Gray and Quadrature Code}
+      \verb{urlraw}
+      \verb http://www.grayhill.com/assets/1/7/Mech_Encoder_25L.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.grayhill.com/assets/1/7/Mech_Encoder_25L.pdf
+      \endverb
+    \endentry
+    \entry{7-SEGMENT}{manual}{}
+      \list{organization}{1}{%
+        {Vishay}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{number}{TDSG51}
+      \field{title}{Standard 7-Segment Display 13 mm}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.vishay.com/docs/83126/tdsg51.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.vishay.com/docs/83126/tdsg51.pdf
+      \endverb
+    \endentry
+    \entry{74HC194}{manual}{}
+      \list{organization}{1}{%
+        {Nexperia}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Rev. 3}
+      \field{number}{74HC194}
+      \field{title}{4-bit bidirectional universal shift register}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://assets.nexperia.com/documents/data-sheet/74HC194.pdf
+      \endverb
+      \verb{url}
+      \verb https://assets.nexperia.com/documents/data-sheet/74HC194.pdf
+      \endverb
+    \endentry
+    \entry{SLIDES_5}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a4bb9c7a9e7ea5feba0019e5a1849787}{%
+           family={Breijo},
+           familyi={B\bibinitperiod},
+           given={Eduardo\bibnamedelima Garcia},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Valencia, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Politécnica de Valencia}%
+      }
+      \strng{namehash}{a4bb9c7a9e7ea5feba0019e5a1849787}
+      \strng{fullhash}{a4bb9c7a9e7ea5feba0019e5a1849787}
+      \strng{bibnamehash}{a4bb9c7a9e7ea5feba0019e5a1849787}
+      \strng{authorbibnamehash}{a4bb9c7a9e7ea5feba0019e5a1849787}
+      \strng{authornamehash}{a4bb9c7a9e7ea5feba0019e5a1849787}
+      \strng{authorfullhash}{a4bb9c7a9e7ea5feba0019e5a1849787}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Digital Electronics}
+      \field{title}{Lecture 5: Registers}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
