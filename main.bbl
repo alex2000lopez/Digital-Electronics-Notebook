@@ -284,6 +284,25 @@
       \field{title}{Lecture 5: Registers}
       \field{year}{2020}
     \endentry
+    \entry{6116}{manual}{}
+      \list{organization}{1}{%
+        {Integrated Device Technology, Inc.}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{Rev. 1}
+      \field{number}{6116}
+      \field{title}{{CMOS Static RAM 16K (2K x 8 Bit)}}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb https://www.princeton.edu/~mae412/HANDOUTS/Datasheets/6116.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.princeton.edu/~mae412/HANDOUTS/Datasheets/6116.pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
