@@ -2246,6 +2246,21 @@
     <bcf:citekey order="61">6116</bcf:citekey>
     <bcf:citekey order="62">6116</bcf:citekey>
     <bcf:citekey order="63">6116</bcf:citekey>
+    <bcf:citekey order="64">LOGIC_GUIDE</bcf:citekey>
+    <bcf:citekey order="65">LOGIC_GUIDE</bcf:citekey>
+    <bcf:citekey order="66">74HCT04</bcf:citekey>
+    <bcf:citekey order="67">BOYLESTAD</bcf:citekey>
+    <bcf:citekey order="68">BOYLESTAD</bcf:citekey>
+    <bcf:citekey order="69">BOYLESTAD</bcf:citekey>
+    <bcf:citekey order="70">BOYLESTAD</bcf:citekey>
+    <bcf:citekey order="71">74HCT04</bcf:citekey>
+    <bcf:citekey order="72">BD135</bcf:citekey>
+    <bcf:citekey order="73">BD135</bcf:citekey>
+    <bcf:citekey order="74">BD135</bcf:citekey>
+    <bcf:citekey order="75">BD135</bcf:citekey>
+    <bcf:citekey order="76">BD135</bcf:citekey>
+    <bcf:citekey order="77">BD135</bcf:citekey>
+    <bcf:citekey order="78">BD135</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
