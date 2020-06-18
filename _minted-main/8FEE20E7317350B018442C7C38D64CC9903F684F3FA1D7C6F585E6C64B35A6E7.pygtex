@@ -1,0 +1,52 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{library} \PYG{n+nn}{ieee}\PYG{p}{;}
+\PYG{k}{use} \PYG{n+nn}{ieee.std\PYGZus{}logic\PYGZus{}1164.}\PYG{k}{ALL}\PYG{p}{;}
+
+\PYG{k}{entity} \PYG{n+nc}{SAFECODE} \PYG{k}{is}
+  \PYG{k}{port} \PYG{p}{(}\PYG{n}{CLK} \PYG{o}{:} \PYG{k}{in} \PYG{k+kt}{std\PYGZus{}logic}\PYG{p}{;}
+        \PYG{n}{SIG} \PYG{o}{:} \PYG{k}{in} \PYG{k+kt}{std\PYGZus{}logic\PYGZus{}vector}\PYG{p}{(}\PYG{l+m+mi}{3} \PYG{k}{downto} \PYG{l+m+mi}{0}\PYG{p}{);} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Keypad input}
+        \PYG{n}{A} \PYG{o}{:} \PYG{k}{inout} \PYG{k+kt}{inTEGER} \PYG{k}{range} \PYG{l+m+mi}{0} \PYG{k}{TO} \PYG{l+m+mi}{3}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Address input \PYGZam{} output}
+        \PYG{n}{D} \PYG{o}{:} \PYG{k}{out} \PYG{k+kt}{std\PYGZus{}logic\PYGZus{}vector}\PYG{p}{(}\PYG{l+m+mi}{3} \PYG{k}{downto} \PYG{l+m+mi}{0}\PYG{p}{);} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Password output to RAM}
+        \PYG{n}{CS} \PYG{o}{:} \PYG{k}{out} \PYG{k+kt}{std\PYGZus{}logic}\PYG{p}{);} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Chip select output}
+\PYG{k}{end} \PYG{n+nc}{SAFECODE}\PYG{p}{;}
+
+\PYG{k}{architecture} \PYG{n+nc}{ARCH} \PYG{k}{of} \PYG{n+nc}{SAFECODE} \PYG{k}{is}
+  \PYG{k}{type} \PYG{n}{STATE\PYGZus{}type} \PYG{k}{is} \PYG{p}{(}\PYG{n}{Q0}\PYG{p}{,} \PYG{n}{Q1}\PYG{p}{,} \PYG{n}{Q2}\PYG{p}{,} \PYG{n}{Q3}\PYG{p}{);} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}State declaration}
+  \PYG{k}{signal} \PYG{n}{STATE} \PYG{o}{:} \PYG{n}{STATE\PYGZus{}type}\PYG{p}{;}
+\PYG{k}{begin}
+  \PYG{k}{process}\PYG{p}{(}\PYG{n}{CLK}\PYG{p}{)}
+  \PYG{k}{begin}
+    \PYG{k}{if} \PYG{p}{(}\PYG{n}{rising\PYGZus{}edge}\PYG{p}{(}\PYG{n}{CLK}\PYG{p}{))} \PYG{k}{then}
+      \PYG{k}{case} \PYG{n}{STATE} \PYG{k}{is} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}State 0, A=0, CS=1}
+        \PYG{k}{when} \PYG{n}{Q0} \PYG{o}{=\PYGZgt{}} \PYG{n}{A} \PYG{o}{\PYGZlt{}=} \PYG{l+m+mi}{0}\PYG{p}{;}
+          \PYG{n}{CS} \PYG{o}{\PYGZlt{}=} \PYG{l+s+sc}{\PYGZsq{}1\PYGZsq{}}\PYG{p}{;}
+          \PYG{k}{if} \PYG{p}{(}\PYG{n}{SIG} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}1100\PYGZdq{}}\PYG{p}{)} \PYG{k}{then} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}if “*”}
+            \PYG{n}{STATE} \PYG{o}{\PYGZlt{}=} \PYG{n}{Q1}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Go to State 1}
+          \PYG{k}{else}
+            \PYG{n}{STATE} \PYG{o}{\PYGZlt{}=} \PYG{n}{Q0}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Stay in State 0}
+          \PYG{k}{end} \PYG{k}{if}\PYG{p}{;}
+        \PYG{k}{when} \PYG{n}{Q1} \PYG{o}{=\PYGZgt{}} \PYG{n}{D} \PYG{o}{\PYGZlt{}=} \PYG{n}{SIG}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}State 1, D=SIG, A=A, CS=0}
+          \PYG{n}{CS} \PYG{o}{\PYGZlt{}=} \PYG{l+s+sc}{\PYGZsq{}0\PYGZsq{}}\PYG{p}{;}
+          \PYG{n}{A} \PYG{o}{\PYGZlt{}=} \PYG{n}{A}\PYG{p}{;}
+          \PYG{k}{if} \PYG{p}{(}\PYG{n}{SIG} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}1100\PYGZdq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}if “*”}
+            \PYG{n}{STATE} \PYG{o}{\PYGZlt{}=} \PYG{n}{Q1}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Stay in State 1}
+          \PYG{k}{ELSif} \PYG{p}{(}\PYG{n}{SIG} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}1111\PYGZdq{}}\PYG{p}{)} \PYG{k}{then} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}if “\PYGZsh{}”}
+            \PYG{n}{STATE} \PYG{o}{\PYGZlt{}=} \PYG{n}{Q0}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Go back to State 0}
+          \PYG{k}{else} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}if not “\PYGZsh{}”}
+            \PYG{n}{STATE} \PYG{o}{\PYGZlt{}=} \PYG{n}{Q2}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Go to State 2}
+          \PYG{k}{end} \PYG{k}{if}\PYG{p}{;}
+        \PYG{k}{when} \PYG{n}{Q2} \PYG{o}{=\PYGZgt{}} \PYG{n}{CS} \PYG{o}{\PYGZlt{}=} \PYG{l+s+sc}{\PYGZsq{}1\PYGZsq{}}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}State 1, D=SIG, A=A, CS=1}
+          \PYG{k}{if} \PYG{p}{(}\PYG{n}{D} \PYG{o}{=} \PYG{n}{SIG}\PYG{p}{)} \PYG{k}{then} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}if D=SIG}
+            \PYG{n}{STATE} \PYG{o}{\PYGZlt{}=} \PYG{n}{Q2}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Stay in State 2}
+          \PYG{k}{ELSif} \PYG{p}{(}\PYG{n}{SIG} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}1111\PYGZdq{}}\PYG{p}{)} \PYG{k}{then} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}if “\PYGZsh{}”}
+            \PYG{n}{STATE} \PYG{o}{\PYGZlt{}=} \PYG{n}{Q0}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Go to State 0}
+          \PYG{k}{else}
+            \PYG{n}{STATE} \PYG{o}{\PYGZlt{}=} \PYG{n}{Q3}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Go to State 3}
+          \PYG{k}{end} \PYG{k}{if}\PYG{p}{;}
+        \PYG{k}{when} \PYG{n}{Q3} \PYG{o}{=\PYGZgt{}} \PYG{n}{A} \PYG{o}{\PYGZlt{}=} \PYG{n}{A} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}State 3, D=SIG, A=A+1, CS=1}
+          \PYG{n}{STATE} \PYG{o}{\PYGZlt{}=} \PYG{n}{Q1}\PYG{p}{;} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}Go to State 1}
+      \PYG{k}{end} \PYG{k}{case}\PYG{p}{;}
+    \PYG{k}{end} \PYG{k}{if}\PYG{p}{;}
+  \PYG{k}{end} \PYG{k}{process}\PYG{p}{;}
+\PYG{k}{end} \PYG{n+nc}{ARCH}\PYG{p}{;}
+\end{Verbatim}

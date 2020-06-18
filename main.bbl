@@ -397,6 +397,83 @@
       \verb https://www.onsemi.com/pub/Collateral/BD135-D.PDF
       \endverb
     \endentry
+    \entry{ATMEGA328P}{manual}{}
+      \list{organization}{1}{%
+        {Atmel Corporation}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{note}{Rev. 7810D}
+      \field{number}{ATMega328P}
+      \field{title}{ATMega328P: 8-bit AVR Microcontroller with 32K Bytes In-System Programmable Flash}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/ATMega328P_Datasheet
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/ATMega328P_Datasheet
+      \endverb
+    \endentry
+    \entry{ATMEGA328P_PINOUT}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3c18770e878cd1a1b3b777eee9b4a7aa}{%
+           family={{Nets and Nuts}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c18770e878cd1a1b3b777eee9b4a7aa}
+      \strng{fullhash}{3c18770e878cd1a1b3b777eee9b4a7aa}
+      \strng{bibnamehash}{3c18770e878cd1a1b3b777eee9b4a7aa}
+      \strng{authorbibnamehash}{3c18770e878cd1a1b3b777eee9b4a7aa}
+      \strng{authornamehash}{3c18770e878cd1a1b3b777eee9b4a7aa}
+      \strng{authorfullhash}{3c18770e878cd1a1b3b777eee9b4a7aa}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pinout ATMega328P}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nets-nuts.com.br/wp-content/uploads/2017/01/atmega_328pu_pinout.svg
+      \endverb
+      \verb{url}
+      \verb https://nets-nuts.com.br/wp-content/uploads/2017/01/atmega_328pu_pinout.svg
+      \endverb
+    \endentry
+    \entry{BQ_ARDUINO}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b439a69f607060256b4736b3d9d83450}{%
+           family={{Alberto Piganti, BQ}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b439a69f607060256b4736b3d9d83450}
+      \strng{fullhash}{b439a69f607060256b4736b3d9d83450}
+      \strng{bibnamehash}{b439a69f607060256b4736b3d9d83450}
+      \strng{authorbibnamehash}{b439a69f607060256b4736b3d9d83450}
+      \strng{authornamehash}{b439a69f607060256b4736b3d9d83450}
+      \strng{authorfullhash}{b439a69f607060256b4736b3d9d83450}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pinout Uno}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://diwo.bq.com/pinout-uno/
+      \endverb
+      \verb{url}
+      \verb http://diwo.bq.com/pinout-uno/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

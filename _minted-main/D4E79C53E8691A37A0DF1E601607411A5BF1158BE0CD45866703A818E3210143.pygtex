@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{uint8\PYGZus{}t} \PYG{n}{foo}\PYG{p}{;}
+\PYG{c+c1}{//...}
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)\PYGZob{}}
+    \PYG{c+cm}{/* Copies the status of the input pins at PortB Into the variable foo: */}
+    \PYG{n}{Foo} \PYG{o}{=} \PYG{n}{PINB}\PYG{p}{;}
+\PYG{c+c1}{//...\PYGZcb{}}
+\end{Verbatim}

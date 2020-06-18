@@ -2261,6 +2261,15 @@
     <bcf:citekey order="76">BD135</bcf:citekey>
     <bcf:citekey order="77">BD135</bcf:citekey>
     <bcf:citekey order="78">BD135</bcf:citekey>
+    <bcf:citekey order="79">ATMEGA328P</bcf:citekey>
+    <bcf:citekey order="80">ATMEGA328P_PINOUT</bcf:citekey>
+    <bcf:citekey order="81">ATMEGA328P_PINOUT</bcf:citekey>
+    <bcf:citekey order="82">BQ_ARDUINO</bcf:citekey>
+    <bcf:citekey order="83">BQ_ARDUINO</bcf:citekey>
+    <bcf:citekey order="84">ATMEGA328P</bcf:citekey>
+    <bcf:citekey order="85">ATMEGA328P</bcf:citekey>
+    <bcf:citekey order="86">ATMEGA328P</bcf:citekey>
+    <bcf:citekey order="87">ATMEGA328P</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

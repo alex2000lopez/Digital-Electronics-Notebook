@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}define MyBIT 2}
+\PYG{p}{...}
+\PYG{n}{PORTA} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{MyBIT}\PYG{p}{);} \PYG{c+cm}{/* Sets bit 2 at PortA on 1 */}
+\PYG{n}{PORTA} \PYG{o}{\PYGZam{}=} \PYG{o}{\PYGZti{}}\PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{MyBIT}\PYG{p}{);} \PYG{c+cm}{/* Deletes bit 2 at PortA */}
+\end{Verbatim}

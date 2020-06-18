@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{entity} \PYG{n+nc}{TEMP} \PYG{k}{is}
+    \PYG{k}{port}\PYG{p}{(}\PYG{n}{temp}\PYG{o}{:} \PYG{k}{in} \PYG{k+kt}{std\PYGZus{}logic\PYGZus{}vector} \PYG{p}{(}\PYG{l+m+mi}{3} \PYG{k}{downto} \PYG{l+m+mi}{0}\PYG{p}{);}
+         \PYG{n}{blue}\PYG{o}{:} \PYG{k}{out} \PYG{k+kt}{std\PYGZus{}logic}\PYG{p}{;}
+         \PYG{n}{green}\PYG{o}{:} \PYG{k}{out} \PYG{k+kt}{std\PYGZus{}logic}\PYG{p}{;}  
+         \PYG{n}{red}\PYG{o}{:} \PYG{k}{out} \PYG{k+kt}{std\PYGZus{}logic}
+        \PYG{p}{);}
+  \PYG{k}{end} \PYG{n+nc}{TEMP}\PYG{p}{;}
+\end{Verbatim}

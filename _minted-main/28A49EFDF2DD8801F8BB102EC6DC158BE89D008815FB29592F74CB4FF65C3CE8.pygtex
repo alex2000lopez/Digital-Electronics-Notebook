@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{bit\PYGZus{}is\PYGZus{}set}\PYG{p}{(}\PYG{n}{PINC}\PYG{p}{,} \PYG{n}{PINC1}\PYG{p}{)} \PYG{c+c1}{// Same as (PINC \PYGZam{} (1\PYGZlt{}\PYGZlt{}PINC1))}
+
+\PYG{n}{bit\PYGZus{}is\PYGZus{}clear}\PYG{p}{(}\PYG{n}{PINC}\PYG{p}{,} \PYG{n}{PINC1}\PYG{p}{)} \PYG{c+c1}{// Same as !(PINC \PYGZam{} (1\PYGZlt{}\PYGZlt{}PINC1))}
+\end{Verbatim}

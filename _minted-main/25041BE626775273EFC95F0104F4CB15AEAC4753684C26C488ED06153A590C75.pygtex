@@ -1,0 +1,47 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}avr/io.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}util/delay.h\PYGZgt{}  // We include the delay library}
+\PYG{c+cp}{\PYGZsh{}define F\PYGZus{}CPU 16000000UL}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+	\PYG{c+cm}{/* We configure pins 0, 1, 2, 3, 7 (Of port address D) }
+\PYG{c+cm}{	as outputs \PYGZhy{}\PYGZgt{} DDDx = 1 */}
+
+	\PYG{n}{DDRD} \PYG{o}{|=} \PYG{p}{((}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDD0}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDD1}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDD2}\PYG{p}{));}
+	\PYG{n}{DDRD} \PYG{o}{|=} \PYG{p}{((}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDD3}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDD7}\PYG{p}{));}
+
+	\PYG{c+cm}{/* We configure pin 0 (Of port address B) as input with }
+\PYG{c+cm}{	pull\PYGZhy{}up DDB0 = 0 \PYGZam{} PORTB0 = 1 */}
+	
+	\PYG{n}{DDRB} \PYG{o}{\PYGZam{}=} \PYG{o}{\PYGZti{}}\PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDB0}\PYG{p}{);}
+	\PYG{n}{PORTB} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{PORTB0}\PYG{p}{);}
+   
+    \PYG{k}{while} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)\PYGZob{}}
+		\PYG{c+c1}{// Clockwise turning}
+		
+		\PYG{k}{if}\PYG{p}{(}\PYG{n}{PINB} \PYG{o}{\PYGZam{}} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{PINB0}\PYG{p}{))} \PYG{p}{\PYGZob{}}	
+			\PYG{n}{PORTD} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{n}{b10001010}\PYG{p}{;}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{);}
+			\PYG{n}{PORTD} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{n}{b10001001}\PYG{p}{;}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{);}
+			\PYG{n}{PORTD} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{n}{b10000101}\PYG{p}{;}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{);}
+			\PYG{n}{PORTD} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{n}{b10000110}\PYG{p}{;}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{);}					
+		\PYG{p}{\PYGZcb{}}
+		
+		\PYG{c+c1}{// Counterclocwise turning}
+		\PYG{k}{else}\PYG{p}{\PYGZob{}}		
+			\PYG{n}{PORTD} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{n}{b10000110}\PYG{p}{;}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{);}
+			\PYG{n}{PORTD} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{n}{b10000101}\PYG{p}{;}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{);}
+			\PYG{n}{PORTD} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{n}{b10001001}\PYG{p}{;}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{);}
+			\PYG{n}{PORTD} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{n}{b10001010}\PYG{p}{;}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{);}									
+		\PYG{p}{\PYGZcb{}}		
+    \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/* Implements action, if bit No. 1 (the “second” bit) is set in PINC (1) */}
+\PYG{k}{if} \PYG{p}{(} \PYG{n}{PINC} \PYG{o}{\PYGZam{}} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{PINC1}\PYG{p}{)} \PYG{p}{)} \PYG{p}{\PYGZob{}}
+\PYG{c+cm}{/* action */}\PYG{p}{\PYGZcb{}}
+
+\PYG{c+cm}{/* Implements action, if bit No. 2 (the “third” bit) is deleted in PINB (0) */}
+\PYG{k}{if} \PYG{p}{(} \PYG{o}{!}\PYG{p}{(}\PYG{n}{PINB} \PYG{o}{\PYGZam{}} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{PINB2}\PYG{p}{))} \PYG{p}{)} \PYG{p}{\PYGZob{}}
+\PYG{c+cm}{/* action */}\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

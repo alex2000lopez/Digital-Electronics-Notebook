@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{entity} \PYG{n+nc}{NAME\PYGZus{}ENTITY} \PYG{k}{is}
+    \PYG{k}{port}\PYG{p}{(}\PYG{n}{NAME\PYGZus{}OF\PYGZus{}PORT\PYGZus{}1}\PYG{o}{:}  \PYG{n}{DIRECTION}  \PYG{n}{DATA\PYGZus{}TYPE}\PYG{p}{;}
+                        \PYG{p}{.} \PYG{p}{.} \PYG{p}{.}
+         \PYG{p}{);}
+  \PYG{k}{end} \PYG{n+nc}{NAME\PYGZus{}ENTITY}\PYG{p}{;}
+\end{Verbatim}

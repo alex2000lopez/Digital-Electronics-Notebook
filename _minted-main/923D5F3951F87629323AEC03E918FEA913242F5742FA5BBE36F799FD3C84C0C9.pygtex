@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{DDRC} \PYG{o}{\PYGZam{}=} \PYG{o}{\PYGZti{}}\PYG{p}{((}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{PC0}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{PC3}\PYG{p}{)} \PYG{p}{);} \PYG{c+cm}{/* PC0 and PC3 as inputs */}
+\PYG{n}{PORTC} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{PC0}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{PC3}\PYG{p}{);} \PYG{c+cm}{/* internal Pull UP for both switched on */}
+
+
+\PYG{n}{DDRB} \PYG{o}{=} \PYG{l+m+mh}{0x1F}\PYG{p}{;} \PYG{c+cm}{/* direct assignment \PYGZhy{} unclearly */}
+\PYG{n}{DDRB} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{n}{b00011111}\PYG{p}{;} \PYG{c+cm}{/* direct assignment – Clearer */}
+
+\PYG{c+cm}{/* more typing work though clearer: */}
+\PYG{n}{DDRB} \PYG{o}{=} \PYG{p}{((}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDB0}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDB1}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDB2}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDB3}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{DDB4}\PYG{p}{));}
+\end{Verbatim}

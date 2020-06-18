@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.2)  16 JUN 2020 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.2)  19 JUN 2020 01:11
 entering extended mode
 **"c:/Users/Pc/OneDrive - UPV/UPV/2019-2020/Digital Electronics/VHDL/Libreta Digital/Latex Notebook/Digital-Electronics-Notebook/main.tex"
 ("c:/Users/Pc/OneDrive - UPV/UPV/2019-2020/Digital Electronics/VHDL/Libreta Digital/Latex Notebook/Digital-Electronics-Notebook/main.tex"
@@ -1132,7 +1132,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip171
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 138.
+Package hyperref Info: Option `colorlinks' set `false' on input line 154.
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > main.aex <nul: /p x=^%~$PATH:i>> main.aex)...executed.
 
 runsystem(del main.aex)...executed.
@@ -1142,7 +1142,7 @@ Package csquotes Info: ... none found.
 
 
 Package csquotes Warning: No multilingual support.
-(csquotes)                Cannot enable multilingual quotes on input line 147.
+(csquotes)                Cannot enable multilingual quotes on input line 163.
 
 (main.aux (Title_Page.aux)
 
@@ -1154,22 +1154,22 @@ LaTeX Warning: Label `fig:MEALY' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1235,15 +1235,15 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 
 \symgns@font=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 147.
-Package gensymb Info: Math companion symbols declared on input line 147.
-LaTeX Info: Redefining \degree on input line 147.
-LaTeX Info: Redefining \celsius on input line 147.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 147.
-LaTeX Info: Redefining \ohm on input line 147.
-Package gensymb Info: Using \textohm for \ohm on input line 147.
-LaTeX Info: Redefining \micro on input line 147.
-Package gensymb Info: Using \textmu for \micro on input line 147.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 163.
+Package gensymb Info: Math companion symbols declared on input line 163.
+LaTeX Info: Redefining \degree on input line 163.
+LaTeX Info: Redefining \celsius on input line 163.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 163.
+LaTeX Info: Redefining \ohm on input line 163.
+Package gensymb Info: Using \textohm for \ohm on input line 163.
+LaTeX Info: Redefining \micro on input line 163.
+Package gensymb Info: Using \textmu for \micro on input line 163.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 ("C:\Users\Pc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\english.lbx"
@@ -1257,9 +1257,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 147.
-Package biblatex Info: Reference segment=0 on input line 147.
-Package hyperref Info: Link coloring OFF on input line 147.
+Package biblatex Info: Reference section=0 on input line 163.
+Package biblatex Info: Reference segment=0 on input line 163.
+Package hyperref Info: Link coloring OFF on input line 163.
  ("C:\Users\Pc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  ("C:\Users\Pc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcount.sty"
@@ -1269,18 +1269,18 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count528
 )
-LaTeX Info: Redefining \ref on input line 147.
-LaTeX Info: Redefining \pageref on input line 147.
-LaTeX Info: Redefining \nameref on input line 147.
+LaTeX Info: Redefining \ref on input line 163.
+LaTeX Info: Redefining \pageref on input line 163.
+LaTeX Info: Redefining \nameref on input line 163.
  (main.out) (main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 147.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 163.
  ("C:\Users\Pc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 147.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 163.
  ("C:\Users\Pc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1305,165 +1305,151 @@ LaTeX Font Warning: Font shape `T1/stix/m/scit' undefined
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+ [1]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.161 \clearpage
-                 [1] [2
+l.194 \clearpage
+                 [1
 
-] (Sections/Lab1_PLD.tex
+] (Sections/VHDL/Lab1_PLD.tex
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 1/Temp_ADC_Logic.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 1/Temp_ADC_Logic.pdf, id=340, 419.5675pt x 127.47626pt>
-File: Graphics/Practice 1/Temp_ADC_Logic.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/Temp_ADC_Logic.pdf>
-Package pdftex.def Info: Graphics/Practice 1/Temp_ADC_Logic.pdf  used on input line 9.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 1/Temp_ADC_Logic.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 1/Temp_ADC_Logic.pdf, id=395, 419.5675pt x 127.47626pt>
+File: Graphics/VHDL/Practice 1/Temp_ADC_Logic.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/Temp_ADC_Logic.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/Temp_ADC_Logic.pdf  used on input line 9.
 (pdftex.def)             Requested size: 380.69788pt x 115.66705pt.
-[3
+[2
 
- <./Graphics/Practice 1/Temp_ADC_Logic.pdf>]
-\openout4 = `main.pyg'.
-
- (_minted-main/default-pyg-prefix.pygstyle) (_minted-main/default.pygstyle) (_minted-main/716D847A96A45B2C49525616BBB5D04991F3FA80B60471323B1E243D8EDEA4B9.pygtex
+ <./Graphics/VHDL/Practice 1/Temp_ADC_Logic.pdf>] (_minted-main/default-pyg-prefix.pygstyle) (_minted-main/default.pygstyle) (_minted-main/F5008324FAE07EE5A589BEE1BF0E6CDD51470255D4C91A2BDDCF1EC459CC7BC2.pygtex
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 1.
  ("C:\Users\Pc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bera\t1fvm.fd"
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)) [4]
-\openout4 = `main.pyg'.
-
- (_minted-main/7C8E8653C31E70197A8946CE03C867D991F3FA80B60471323B1E243D8EDEA4B9.pygtex)
-\openout4 = `main.pyg'.
-
- (_minted-main/7BE3B5BC123EF95BCE8E8B8BE7464F3291F3FA80B60471323B1E243D8EDEA4B9.pygtex
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <9> not available
+)) [3] (_minted-main/AA1F2FD6067F4D05F3ECE4707FB08BF00FF7D51061E1CE9C427A87C161B1E621.pygtex) (_minted-main/73534EDD47F12013E77395B4AA692633333D8BD79B74F857F4CBDC05A0D0F693.pygtex
+LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <8> not available
 (Font)              Font shape `T1/fvm/m/sl' tried instead on input line 3.
-) [5]
-\openout4 = `main.pyg'.
+) [4
 
- (_minted-main/D1E8EC45C994C72C2B35DB02EFB3226391F3FA80B60471323B1E243D8EDEA4B9.pygtex
+] (_minted-main/0AE782280FD4F8674CB3BB0DDDA9F9CDF4E2F902583E9A81DA5AC0F52E4829FE.pygtex
 LaTeX Font Info:    Trying to load font information for TS1+fvm on input line 21.
  ("C:\Users\Pc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bera\ts1fvm.fd"
 File: ts1fvm.fd 2004/09/07 scalable font definitions for TS1/fvm.
-)) [6]
-\openout4 = `main.pyg'.
+)) [5
 
- (_minted-main/3603426BEE7DD50EC8933E9790C12FCF91F3FA80B60471323B1E243D8EDEA4B9.pygtex)
-\openout4 = `main.pyg'.
-
- (_minted-main/F38594B67FDE06CBFF827462FE01190191F3FA80B60471323B1E243D8EDEA4B9.pygtex) [7]
-<Graphics/Practice 1/ISPLever.PNG, id=409, 186.6975pt x 167.12437pt>
-File: Graphics/Practice 1/ISPLever.PNG Graphic file (type png)
-<use Graphics/Practice 1/ISPLever.PNG>
-Package pdftex.def Info: Graphics/Practice 1/ISPLever.PNG  used on input line 205.
+] (_minted-main/9804FBBAEF64007450E988B06BA54FDB3DFA822AAAA1ADAE2563CC6519AA0512.pygtex) (_minted-main/9804FBBAEF64007450E988B06BA54FDB3DFA822AAAA1ADAE2563CC6519AA0512.pygtex) [6]
+<Graphics/VHDL/Practice 1/ISPLever.PNG, id=464, 186.6975pt x 167.12437pt>
+File: Graphics/VHDL/Practice 1/ISPLever.PNG Graphic file (type png)
+<use Graphics/VHDL/Practice 1/ISPLever.PNG>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ISPLever.PNG  used on input line 124.
 (pdftex.def)             Requested size: 158.69362pt x 142.05637pt.
-<Graphics/Practice 1/Chip_Report.PNG, id=411, 304.13625pt x 320.69812pt>
-File: Graphics/Practice 1/Chip_Report.PNG Graphic file (type png)
-<use Graphics/Practice 1/Chip_Report.PNG>
-Package pdftex.def Info: Graphics/Practice 1/Chip_Report.PNG  used on input line 214.
+<Graphics/VHDL/Practice 1/Chip_Report.PNG, id=466, 304.13625pt x 320.69812pt>
+File: Graphics/VHDL/Practice 1/Chip_Report.PNG Graphic file (type png)
+<use Graphics/VHDL/Practice 1/Chip_Report.PNG>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/Chip_Report.PNG  used on input line 133.
 (pdftex.def)             Requested size: 212.8939pt x 224.48714pt.
- [8 <./Graphics/Practice 1/ISPLever.PNG> <./Graphics/Practice 1/Chip_Report.PNG>]
-<Graphics/Practice 1/ANIMATION/F0.pdf, id=421, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F0.pdf , page1 used on input line 229.
+ [7 <./Graphics/VHDL/Practice 1/ISPLever.PNG> <./Graphics/VHDL/Practice 1/Chip_Report.PNG>]
+<Graphics/VHDL/Practice 1/ANIMATION/F0.pdf, id=476, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F0.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F0.pdf> <a0,fr0>
-<Graphics/Practice 1/ANIMATION/F1.pdf, id=446, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F1.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F0.pdf> <a0,fr0>
+<Graphics/VHDL/Practice 1/ANIMATION/F1.pdf, id=501, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F1.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F1.pdf> <a0,fr1>
-<Graphics/Practice 1/ANIMATION/F2.pdf, id=471, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F2.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F2.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F2.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F1.pdf> <a0,fr1>
+<Graphics/VHDL/Practice 1/ANIMATION/F2.pdf, id=526, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F2.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F2.pdf> <a0,fr2>
-<Graphics/Practice 1/ANIMATION/F3.pdf, id=496, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F3.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F3.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F3.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F2.pdf> <a0,fr2>
+<Graphics/VHDL/Practice 1/ANIMATION/F3.pdf, id=551, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F3.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F3.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F3.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F3.pdf> <a0,fr3>
-<Graphics/Practice 1/ANIMATION/F4.pdf, id=521, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F4.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F4.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F4.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F3.pdf> <a0,fr3>
+<Graphics/VHDL/Practice 1/ANIMATION/F4.pdf, id=576, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F4.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F4.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F4.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F4.pdf> <a0,fr4>
-<Graphics/Practice 1/ANIMATION/F5.pdf, id=546, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F5.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F5.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F5.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F4.pdf> <a0,fr4>
+<Graphics/VHDL/Practice 1/ANIMATION/F5.pdf, id=601, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F5.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F5.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F5.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F5.pdf> <a0,fr5>
-<Graphics/Practice 1/ANIMATION/F6.pdf, id=571, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F6.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F6.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F6.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F5.pdf> <a0,fr5>
+<Graphics/VHDL/Practice 1/ANIMATION/F6.pdf, id=626, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F6.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F6.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F6.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F6.pdf> <a0,fr6>
-<Graphics/Practice 1/ANIMATION/F7.pdf, id=596, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F7.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F7.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F7.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F6.pdf> <a0,fr6>
+<Graphics/VHDL/Practice 1/ANIMATION/F7.pdf, id=651, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F7.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F7.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F7.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F7.pdf> <a0,fr7>
-<Graphics/Practice 1/ANIMATION/F8.pdf, id=621, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F8.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F8.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F8.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F7.pdf> <a0,fr7>
+<Graphics/VHDL/Practice 1/ANIMATION/F8.pdf, id=676, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F8.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F8.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F8.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F8.pdf> <a0,fr8>
-<Graphics/Practice 1/ANIMATION/F9.pdf, id=646, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F9.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F9.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F9.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F8.pdf> <a0,fr8>
+<Graphics/VHDL/Practice 1/ANIMATION/F9.pdf, id=701, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F9.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F9.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F9.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F9.pdf> <a0,fr9>
-<Graphics/Practice 1/ANIMATION/F10.pdf, id=671, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F10.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F10.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F10.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F9.pdf> <a0,fr9>
+<Graphics/VHDL/Practice 1/ANIMATION/F10.pdf, id=726, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F10.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F10.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F10.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F10.pdf> <a0,fr10>
-<Graphics/Practice 1/ANIMATION/F11.pdf, id=696, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F11.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F11.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F11.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F10.pdf> <a0,fr10>
+<Graphics/VHDL/Practice 1/ANIMATION/F11.pdf, id=751, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F11.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F11.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F11.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F11.pdf> <a0,fr11>
-<Graphics/Practice 1/ANIMATION/F12.pdf, id=721, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F12.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F12.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F12.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F11.pdf> <a0,fr11>
+<Graphics/VHDL/Practice 1/ANIMATION/F12.pdf, id=776, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F12.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F12.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F12.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F12.pdf> <a0,fr12>
-<Graphics/Practice 1/ANIMATION/F13.pdf, id=746, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F13.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F13.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F13.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F12.pdf> <a0,fr12>
+<Graphics/VHDL/Practice 1/ANIMATION/F13.pdf, id=801, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F13.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F13.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F13.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F13.pdf> <a0,fr13>
-<Graphics/Practice 1/ANIMATION/F14.pdf, id=771, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F14.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F14.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F14.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F13.pdf> <a0,fr13>
+<Graphics/VHDL/Practice 1/ANIMATION/F14.pdf, id=826, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F14.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F14.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F14.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F14.pdf> <a0,fr14>
-<Graphics/Practice 1/ANIMATION/F15.pdf, id=796, page=1, 311.1625pt x 123.46124pt>
-File: Graphics/Practice 1/ANIMATION/F15.pdf Graphic file (type pdf)
-<use Graphics/Practice 1/ANIMATION/F15.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 1/ANIMATION/F15.pdf , page1 used on input line 229.
+ <./Graphics/VHDL/Practice 1/ANIMATION/F14.pdf> <a0,fr14>
+<Graphics/VHDL/Practice 1/ANIMATION/F15.pdf, id=851, page=1, 311.1625pt x 123.46124pt>
+File: Graphics/VHDL/Practice 1/ANIMATION/F15.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 1/ANIMATION/F15.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 1/ANIMATION/F15.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 311.16174pt x 123.46092pt.
- <./Graphics/Practice 1/ANIMATION/F15.pdf> <a0,fr15> [9]) (Sections/Lab2_PLD.tex
+ <./Graphics/VHDL/Practice 1/ANIMATION/F15.pdf> <a0,fr15> [8]) (Sections/VHDL/Lab2_PLD.tex
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf, id=856, 609.23611pt x 430.60875pt>
-File: Graphics/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf  used on input line 28.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf, id=911, 609.23611pt x 430.60875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf  used on input line 28.
 (pdftex.def)             Requested size: 121.84506pt x 86.12021pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1480,13 +1466,13 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 25--48
 []$[]$ 
  []
 
-[10 <./Graphics/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf>]
+[9 <./Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/SR ASYNCH.pdf>]
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf, id=880, 503.84235pt x 356.29109pt>
-File: Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf  used on input line 58.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf, id=935, 503.84235pt x 356.29109pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf  used on input line 58.
 (pdftex.def)             Requested size: 125.96027pt x 89.07254pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1505,11 +1491,11 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 55--79
 
 
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf, id=881, 501.91516pt x 502.87875pt>
-File: Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf  used on input line 89.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf, id=936, 501.91516pt x 502.87875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf  used on input line 89.
 (pdftex.def)             Requested size: 125.47847pt x 125.71938pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1531,182 +1517,182 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 86--114
 []$[]$ 
  []
 
-[11
+[10
 
- <./Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf> <./Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf
+ <./Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK SYNCH.pdf> <./Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 2/GRAPHICS/LOGIC GATES/JK ASYNCH.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf, id=923, page=1, 173.64874pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf , page1 used on input line 129.
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf, id=978, page=1, 173.64874pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf , page1 used on input line 129.
 (pdftex.def)             Requested size: 173.64832pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf> <a1,fr0>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf, id=948, page=1, 173.64874pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf , page1 used on input line 129.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F0.pdf> <a1,fr0>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf, id=1003, page=1, 173.64874pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf , page1 used on input line 129.
 (pdftex.def)             Requested size: 173.64832pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf> <a1,fr1>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf, id=973, page=1, 173.64874pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf , page1 used on input line 129.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F1.pdf> <a1,fr1>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf, id=1028, page=1, 173.64874pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf , page1 used on input line 129.
 (pdftex.def)             Requested size: 173.64832pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf> <a1,fr2> [12]
-<Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf, id=1022, page=1, 173.64874pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf , page1 used on input line 155.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK ASYNCH/F2.pdf> <a1,fr2> [11]
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf, id=1077, page=1, 173.64874pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf , page1 used on input line 155.
 (pdftex.def)             Requested size: 173.64832pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf> <a2,fr0>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf, id=1047, page=1, 173.64874pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf , page1 used on input line 155.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F0.pdf> <a2,fr0>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf, id=1102, page=1, 173.64874pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf , page1 used on input line 155.
 (pdftex.def)             Requested size: 173.64832pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf> <a2,fr1>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf, id=1072, page=1, 173.64874pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf , page1 used on input line 155.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F1.pdf> <a2,fr1>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf, id=1127, page=1, 173.64874pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf , page1 used on input line 155.
 (pdftex.def)             Requested size: 173.64832pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf> <a2,fr2>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf, id=1097, page=1, 173.64874pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf , page1 used on input line 155.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F2.pdf> <a2,fr2>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf, id=1152, page=1, 173.64874pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf , page1 used on input line 155.
 (pdftex.def)             Requested size: 173.64832pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf> <a2,fr3>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf, id=1122, page=1, 173.64874pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf , page1 used on input line 155.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F3.pdf> <a2,fr3>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf, id=1177, page=1, 173.64874pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf , page1 used on input line 155.
 (pdftex.def)             Requested size: 173.64832pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf> <a2,fr4> <a2,fr5>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf, id=1170, page=1, 159.59625pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf , page1 used on input line 177.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/JK SYNCH/F4.pdf> <a2,fr4> <a2,fr5>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf, id=1225, page=1, 159.59625pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf , page1 used on input line 177.
 (pdftex.def)             Requested size: 159.59584pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf> <a3,fr0>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf, id=1195, page=1, 159.59625pt x 130.4875pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf , page1 used on input line 177.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F0.pdf> <a3,fr0>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf, id=1250, page=1, 159.59625pt x 130.4875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf , page1 used on input line 177.
 (pdftex.def)             Requested size: 159.59584pt x 130.48717pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf> <a3,fr1> [13]
-<Graphics/Practice 2/GRAPHICS/TIMING/EX2.pdf, id=1244, 526.96875pt x 45.16875pt>
-File: Graphics/Practice 2/GRAPHICS/TIMING/EX2.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/TIMING/EX2.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/TIMING/EX2.pdf  used on input line 193.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/T/F1.pdf> <a3,fr1> [12]
+<Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX2.pdf, id=1299, 526.96875pt x 45.16875pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX2.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX2.pdf  used on input line 193.
 (pdftex.def)             Requested size: 384.68398pt x 32.9729pt.
 
 Overfull \hbox (3.9861pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
-<Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf, id=1247, page=1, 448.67625pt x 195.73125pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf , page1 used on input line 210.
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf, id=1302, page=1, 448.67625pt x 195.73125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf , page1 used on input line 210.
 (pdftex.def)             Requested size: 448.67516pt x 195.73076pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf> <a4,fr0>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf, id=1278, page=1, 448.67625pt x 195.73125pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf , page1 used on input line 210.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F0.pdf> <a4,fr0>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf, id=1333, page=1, 448.67625pt x 195.73125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf , page1 used on input line 210.
 (pdftex.def)             Requested size: 448.67516pt x 195.73076pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf> <a4,fr1>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf, id=1309, page=1, 448.67625pt x 195.73125pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf , page1 used on input line 210.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F1.pdf> <a4,fr1>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf, id=1364, page=1, 448.67625pt x 195.73125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf , page1 used on input line 210.
 (pdftex.def)             Requested size: 448.67516pt x 195.73076pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf> <a4,fr2>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf, id=1340, page=1, 448.67625pt x 195.73125pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf , page1 used on input line 210.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F2.pdf> <a4,fr2>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf, id=1395, page=1, 448.67625pt x 195.73125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf , page1 used on input line 210.
 (pdftex.def)             Requested size: 448.67516pt x 195.73076pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf> <a4,fr3>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf, id=1371, page=1, 448.67625pt x 195.73125pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf , page1 used on input line 210.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F3.pdf> <a4,fr3>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf, id=1426, page=1, 448.67625pt x 195.73125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf , page1 used on input line 210.
 (pdftex.def)             Requested size: 448.67516pt x 195.73076pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf> <a4,fr4>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf, id=1402, page=1, 448.67625pt x 195.73125pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf , page1 used on input line 210.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F4.pdf> <a4,fr4>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf, id=1457, page=1, 448.67625pt x 195.73125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf , page1 used on input line 210.
 (pdftex.def)             Requested size: 448.67516pt x 195.73076pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf> <a4,fr5>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf, id=1433, page=1, 448.67625pt x 195.73125pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf , page1 used on input line 210.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F5.pdf> <a4,fr5>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf, id=1488, page=1, 448.67625pt x 195.73125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf , page1 used on input line 210.
 (pdftex.def)             Requested size: 448.67516pt x 195.73076pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf> <a4,fr6>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf, id=1464, page=1, 448.67625pt x 195.73125pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf , page1 used on input line 210.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F6.pdf> <a4,fr6>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf, id=1519, page=1, 448.67625pt x 195.73125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf , page1 used on input line 210.
 (pdftex.def)             Requested size: 448.67516pt x 195.73076pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf> <a4,fr7>
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/7_SEG/F7.pdf> <a4,fr7>
 Overfull \hbox (0.67874pt too wide) in paragraph at lines 210--215
  [][][][][][][][][][][] 
  []
 
-[14
+[13
 
- <./Graphics/Practice 2/GRAPHICS/TIMING/EX2.pdf>]
-<Graphics/Practice 2/GRAPHICS/TIMING/EX3.pdf, id=1527, 526.96875pt x 67.75313pt>
-File: Graphics/Practice 2/GRAPHICS/TIMING/EX3.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/TIMING/EX3.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/TIMING/EX3.pdf  used on input line 226.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX2.pdf>]
+<Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX3.pdf, id=1582, 526.96875pt x 67.75313pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX3.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX3.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX3.pdf  used on input line 226.
 (pdftex.def)             Requested size: 384.68398pt x 49.45935pt.
 
 Overfull \hbox (3.9861pt too wide) in paragraph at lines 226--227
  [][] 
  []
 
-[15
+[14
 
- <./Graphics/Practice 2/GRAPHICS/TIMING/EX3.pdf>]) (Sections/Lab2_BIS_PLD.tex [16
+ <./Graphics/VHDL/Practice 2/GRAPHICS/TIMING/EX3.pdf>]) (Sections/VHDL/Lab2_BIS_PLD.tex [15
 
 ]
-<Graphics/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf, id=1559, 323.2075pt x 136.51pt>
-File: Graphics/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf  used on input line 44.
+<Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf, id=1614, 323.2075pt x 136.51pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf  used on input line 44.
 (pdftex.def)             Requested size: 323.20671pt x 136.50966pt.
-<Graphics/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf, id=1562, 323.2075pt x 148.555pt>
-File: Graphics/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf  used on input line 51.
+<Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf, id=1617, 323.2075pt x 148.555pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf  used on input line 51.
 (pdftex.def)             Requested size: 323.20671pt x 148.55463pt.
+ [16
+
+ <./Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf> <./Graphics/VHDL/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf>]
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf, id=1734, 289.08pt x 259.97125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf  used on input line 81.
+(pdftex.def)             Requested size: 286.19008pt x 257.37233pt.
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf, id=1737, 293.095pt x 185.69376pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf  used on input line 93.
+(pdftex.def)             Requested size: 293.09427pt x 185.6933pt.
  [17
 
- <./Graphics/Practice 2/GRAPHICS/MONOSTABLE/RETRIGGERABLE.pdf> <./Graphics/Practice 2/GRAPHICS/MONOSTABLE/NON-RETRIGGERABLE.pdf>]
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf, id=1679, 289.08pt x 259.97125pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf  used on input line 81.
-(pdftex.def)             Requested size: 286.19008pt x 257.37233pt.
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf, id=1682, 293.095pt x 185.69376pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf  used on input line 93.
-(pdftex.def)             Requested size: 293.09427pt x 185.6933pt.
- [18
-
- <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf>]
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf, id=1763, 200.46494pt x 188.55544pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf  used on input line 113.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/555_INTERNALS.pdf>]
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf, id=1818, 200.46494pt x 188.55544pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf  used on input line 113.
 (pdftex.def)             Requested size: 200.46445pt x 188.55496pt.
 
 
@@ -1724,662 +1710,760 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 110--129
 []$[]$ 
  []
 
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf, id=1766, 293.095pt x 181.67876pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf  used on input line 137.
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf, id=1821, 293.095pt x 181.67876pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf  used on input line 137.
 (pdftex.def)             Requested size: 293.09427pt x 181.6783pt.
-[19 <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf> <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf>]
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf, id=1867, 252.06973pt x 234.20598pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf  used on input line 152.
+[18 <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/ASTABLE.pdf> <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/ASTABLE_FREQ.pdf>]
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf, id=1922, 252.06973pt x 234.20598pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf  used on input line 152.
 (pdftex.def)             Requested size: 201.65605pt x 187.36502pt.
- [20 <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf> <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf>]
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF, id=1989, 231.86626pt x 209.78375pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF  used on input line 186.
+ [19 <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/MODES/MONOSTABLE.pdf> <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/DATASHEETS/MONOSTABLE_FREQ.pdf>]
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF, id=2044, 231.86626pt x 209.78375pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF  used on input line 186.
 (pdftex.def)             Requested size: 255.05365pt x 230.76282pt.
+ [20
+
+ <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF>]
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF, id=2060, 505.89pt x 311.1625pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF  used on input line 197.
+(pdftex.def)             Requested size: 379.41655pt x 233.3713pt.
  [21
 
- <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_10K_ASSEMBLY.PDF>]
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF, id=2005, 505.89pt x 311.1625pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF  used on input line 197.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF>]
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF, id=2070, 231.86626pt x 209.78375pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF  used on input line 220.
+(pdftex.def)             Requested size: 255.05365pt x 230.76282pt.
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF, id=2071, 505.89pt x 311.1625pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF  used on input line 227.
 (pdftex.def)             Requested size: 379.41655pt x 233.3713pt.
  [22
 
- <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_10K.PDF>]
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF, id=2015, 231.86626pt x 209.78375pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF  used on input line 220.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF> <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF>]
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF, id=2092, 231.86626pt x 209.78375pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF  used on input line 247.
 (pdftex.def)             Requested size: 255.05365pt x 230.76282pt.
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF, id=2016, 505.89pt x 311.1625pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF  used on input line 227.
-(pdftex.def)             Requested size: 379.41655pt x 233.3713pt.
- [23
-
- <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_ASSEMBLY.PDF> <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K.PDF>]
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF, id=2037, 231.86626pt x 209.78375pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF  used on input line 247.
-(pdftex.def)             Requested size: 255.05365pt x 230.76282pt.
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF, id=2038, 505.89pt x 311.1625pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF  used on input line 255.
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF, id=2093, 505.89pt x 311.1625pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF  used on input line 255.
 (pdftex.def)             Requested size: 404.71254pt x 248.93034pt.
 
 Overfull \hbox (24.01466pt too wide) in paragraph at lines 255--256
  [][] 
  []
 
-[24
+[23
 
- <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF> <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF>]
-<Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF, id=2059, 252.945pt x 195.73125pt>
-File: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF  used on input line 281.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_ASTABLE_100K_DIODE_ASSEMBLY.PDF> <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ANALOGUE/555_ASTABLE_ANALOGUE_100K_DIODE.PDF>]
+<Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF, id=2114, 252.945pt x 195.73125pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF  used on input line 281.
 (pdftex.def)             Requested size: 264.3264pt x 204.53828pt.
-<Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf, id=2060, page=1, 505.89pt x 311.1625pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf , page1 used on input line 291.
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf, id=2115, page=1, 505.89pt x 311.1625pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf , page1 used on input line 291.
 (pdftex.def)             Requested size: 505.88875pt x 311.16174pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf> <a5,fr0>
-<Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf, id=2073, page=1, 505.89pt x 311.1625pt>
-File: Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf , page1 used on input line 291.
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F0.pdf> <a5,fr0>
+<Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf, id=2128, page=1, 505.89pt x 311.1625pt>
+File: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf , page1 used on input line 291.
 (pdftex.def)             Requested size: 505.88875pt x 311.16174pt.
- <./Graphics/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf> <a5,fr1> [25 <./Graphics/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF>]) (Sections/Lab3_PLD.tex
+ <./Graphics/VHDL/Practice 2/GRAPHICS/ANIMATION/555/555_MONO_ANALOGUE_F1.pdf> <a5,fr1> [24 <./Graphics/VHDL/Practice 2/GRAPHICS/555/GRAPHS/PROTEUS/ASSEMBLY/555_MONO_ASSEMBLY.PDF>]) (Sections/VHDL/Lab3_PLD.tex
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 3/GRAPHICS/STEPPER_TYPES.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 3/GRAPHICS/STEPPER_TYPES.pdf, id=2119, 1156.32pt x 558.04488pt>
-File: Graphics/Practice 3/GRAPHICS/STEPPER_TYPES.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/STEPPER_TYPES.pdf>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/STEPPER_TYPES.pdf  used on input line 15.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 3/GRAPHICS/STEPPER_TYPES.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 3/GRAPHICS/STEPPER_TYPES.pdf, id=2174, 1156.32pt x 558.04488pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/STEPPER_TYPES.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/STEPPER_TYPES.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/STEPPER_TYPES.pdf  used on input line 16.
 (pdftex.def)             Requested size: 277.52246pt x 133.9335pt.
-[26
+[25
 
- <./Graphics/Practice 3/GRAPHICS/STEPPER_TYPES.pdf>]
-<Graphics/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf, id=2144, 458.71375pt x 249.93375pt>
-File: Graphics/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf  used on input line 30.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/STEPPER_TYPES.pdf>]
+<Graphics/VHDL/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf, id=2199, 458.71375pt x 249.93375pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf  used on input line 31.
 (pdftex.def)             Requested size: 389.90852pt x 212.44469pt.
 
-Overfull \hbox (9.21065pt too wide) in paragraph at lines 30--31
+Overfull \hbox (9.21065pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
-[27
+[26
 
- <./Graphics/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf>]
-\openout4 = `main.pyg'.
-
- (_minted-main/9D5CA3D892CC456F98A6FF69D53372DD91F3FA80B60471323B1E243D8EDEA4B9.pygtex) [28]
-\openout4 = `main.pyg'.
-
- (_minted-main/745A15C6EFD3B7550269B2C6D5A1D1BB91F3FA80B60471323B1E243D8EDEA4B9.pygtex) [29]
-\openout4 = `main.pyg'.
-
- (_minted-main/306E32419CA8C7A820A46BAA861A075B91F3FA80B60471323B1E243D8EDEA4B9.pygtex) [30] [31]
-<Graphics/Practice 3/GRAPHICS/ANIMATION/F0.pdf, id=2205, page=1, 476.78125pt x 173.64874pt>
-File: Graphics/Practice 3/GRAPHICS/ANIMATION/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/ANIMATION/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/ANIMATION/F0.pdf , page1 used on input line 239.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/DATASHEETS/L293D_INTERNAL.pdf>] (_minted-main/DD97C0CAEBFEF46FEC8966E08AD2635A8754F4519BF32FEAE554F33F63AB58BF.pygtex) [27] (_minted-main/F9126DE5150EFB2A1D5C109DD15E8F136D84023AAAB742EED1A98A2C6F500445.pygtex) [28] (_minted-main/B9C8CC633AA1FEF3DC0258E5CD96E2870BAA0EBB42159CDFE1E6BF5C42B69F6F.pygtex) [29]
+<Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F0.pdf, id=2255, page=1, 476.78125pt x 173.64874pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F0.pdf , page1 used on input line 100.
 (pdftex.def)             Requested size: 476.78008pt x 173.64832pt.
- <./Graphics/Practice 3/GRAPHICS/ANIMATION/F0.pdf> <a6,fr0>
-<Graphics/Practice 3/GRAPHICS/ANIMATION/F1.pdf, id=2236, page=1, 476.78125pt x 173.64874pt>
-File: Graphics/Practice 3/GRAPHICS/ANIMATION/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/ANIMATION/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/ANIMATION/F1.pdf , page1 used on input line 239.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F0.pdf> <a6,fr0>
+<Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F1.pdf, id=2286, page=1, 476.78125pt x 173.64874pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F1.pdf , page1 used on input line 100.
 (pdftex.def)             Requested size: 476.78008pt x 173.64832pt.
- <./Graphics/Practice 3/GRAPHICS/ANIMATION/F1.pdf> <a6,fr1>
-<Graphics/Practice 3/GRAPHICS/ANIMATION/F2.pdf, id=2267, page=1, 476.78125pt x 173.64874pt>
-File: Graphics/Practice 3/GRAPHICS/ANIMATION/F2.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/ANIMATION/F2.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/ANIMATION/F2.pdf , page1 used on input line 239.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F1.pdf> <a6,fr1>
+<Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F2.pdf, id=2317, page=1, 476.78125pt x 173.64874pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F2.pdf , page1 used on input line 100.
 (pdftex.def)             Requested size: 476.78008pt x 173.64832pt.
- <./Graphics/Practice 3/GRAPHICS/ANIMATION/F2.pdf> <a6,fr2>
-<Graphics/Practice 3/GRAPHICS/ANIMATION/F3.pdf, id=2298, page=1, 476.78125pt x 173.64874pt>
-File: Graphics/Practice 3/GRAPHICS/ANIMATION/F3.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/ANIMATION/F3.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/ANIMATION/F3.pdf , page1 used on input line 239.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F2.pdf> <a6,fr2>
+<Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F3.pdf, id=2348, page=1, 476.78125pt x 173.64874pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F3.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F3.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F3.pdf , page1 used on input line 100.
 (pdftex.def)             Requested size: 476.78008pt x 173.64832pt.
- <./Graphics/Practice 3/GRAPHICS/ANIMATION/F3.pdf> <a6,fr3>
-<Graphics/Practice 3/GRAPHICS/ANIMATION/F4.pdf, id=2329, page=1, 476.78125pt x 173.64874pt>
-File: Graphics/Practice 3/GRAPHICS/ANIMATION/F4.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/ANIMATION/F4.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/ANIMATION/F4.pdf , page1 used on input line 239.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F3.pdf> <a6,fr3>
+<Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F4.pdf, id=2379, page=1, 476.78125pt x 173.64874pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F4.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F4.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F4.pdf , page1 used on input line 100.
 (pdftex.def)             Requested size: 476.78008pt x 173.64832pt.
- <./Graphics/Practice 3/GRAPHICS/ANIMATION/F4.pdf> <a6,fr4>
-<Graphics/Practice 3/GRAPHICS/ANIMATION/F5.pdf, id=2360, page=1, 476.78125pt x 173.64874pt>
-File: Graphics/Practice 3/GRAPHICS/ANIMATION/F5.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/ANIMATION/F5.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/ANIMATION/F5.pdf , page1 used on input line 239.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F4.pdf> <a6,fr4>
+<Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F5.pdf, id=2410, page=1, 476.78125pt x 173.64874pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F5.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F5.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F5.pdf , page1 used on input line 100.
 (pdftex.def)             Requested size: 476.78008pt x 173.64832pt.
- <./Graphics/Practice 3/GRAPHICS/ANIMATION/F5.pdf> <a6,fr5>
-<Graphics/Practice 3/GRAPHICS/ANIMATION/F6.pdf, id=2391, page=1, 476.78125pt x 173.64874pt>
-File: Graphics/Practice 3/GRAPHICS/ANIMATION/F6.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/ANIMATION/F6.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/ANIMATION/F6.pdf , page1 used on input line 239.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F5.pdf> <a6,fr5>
+<Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F6.pdf, id=2441, page=1, 476.78125pt x 173.64874pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F6.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F6.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F6.pdf , page1 used on input line 100.
 (pdftex.def)             Requested size: 476.78008pt x 173.64832pt.
- <./Graphics/Practice 3/GRAPHICS/ANIMATION/F6.pdf> <a6,fr6>
-<Graphics/Practice 3/GRAPHICS/ANIMATION/F7.pdf, id=2422, page=1, 476.78125pt x 173.64874pt>
-File: Graphics/Practice 3/GRAPHICS/ANIMATION/F7.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/ANIMATION/F7.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/ANIMATION/F7.pdf , page1 used on input line 239.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F6.pdf> <a6,fr6>
+<Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F7.pdf, id=2472, page=1, 476.78125pt x 173.64874pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F7.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F7.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F7.pdf , page1 used on input line 100.
 (pdftex.def)             Requested size: 476.78008pt x 173.64832pt.
- <./Graphics/Practice 3/GRAPHICS/ANIMATION/F7.pdf> <a6,fr7>
-<Graphics/Practice 3/GRAPHICS/ANIMATION/F8.pdf, id=2453, page=1, 476.78125pt x 173.64874pt>
-File: Graphics/Practice 3/GRAPHICS/ANIMATION/F8.pdf Graphic file (type pdf)
-<use Graphics/Practice 3/GRAPHICS/ANIMATION/F8.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 3/GRAPHICS/ANIMATION/F8.pdf , page1 used on input line 239.
+ <./Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F7.pdf> <a6,fr7>
+<Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F8.pdf, id=2503, page=1, 476.78125pt x 173.64874pt>
+File: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F8.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F8.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F8.pdf , page1 used on input line 100.
 (pdftex.def)             Requested size: 476.78008pt x 173.64832pt.
- <./Graphics/Practice 3/GRAPHICS/ANIMATION/F8.pdf> <a6,fr8>
-Overfull \hbox (0.72763pt too wide) in paragraph at lines 239--244
+ <./Graphics/VHDL/Practice 3/GRAPHICS/ANIMATION/F8.pdf> <a6,fr8>
+Overfull \hbox (0.72763pt too wide) in paragraph at lines 100--105
  [][][][][][][][][][][][] 
  []
 
-[32]) (Sections/Lab4_PLD.tex
-<Graphics/Practice 4/MOORE.pdf, id=2511, 450.80132pt x 151.56444pt>
-File: Graphics/Practice 4/MOORE.pdf Graphic file (type pdf)
-<use Graphics/Practice 4/MOORE.pdf>
-Package pdftex.def Info: Graphics/Practice 4/MOORE.pdf  used on input line 16.
+[30]) (Sections/VHDL/Lab4_PLD.tex
+<Graphics/VHDL/Practice 4/MOORE.pdf, id=2561, 450.80132pt x 151.56444pt>
+File: Graphics/VHDL/Practice 4/MOORE.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 4/MOORE.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 4/MOORE.pdf  used on input line 18.
 (pdftex.def)             Requested size: 380.69788pt x 128.0001pt.
-<Graphics/Practice 4/MEALY.pdf, id=2514, 450.80132pt x 151.56444pt>
-File: Graphics/Practice 4/MEALY.pdf Graphic file (type pdf)
-<use Graphics/Practice 4/MEALY.pdf>
-Package pdftex.def Info: Graphics/Practice 4/MEALY.pdf  used on input line 25.
+<Graphics/VHDL/Practice 4/MEALY.pdf, id=2564, 450.80132pt x 151.56444pt>
+File: Graphics/VHDL/Practice 4/MEALY.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 4/MEALY.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 4/MEALY.pdf  used on input line 27.
 (pdftex.def)             Requested size: 380.69788pt x 128.0001pt.
- [33
+ [31
 
- <./Graphics/Practice 4/MOORE.pdf> <./Graphics/Practice 4/MEALY.pdf
+ <./Graphics/VHDL/Practice 4/MOORE.pdf>]
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 4/MEALY.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-pdfTeX warning: pdflatex (file ./Graphics/Practice 4/MOORE_FSM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 4/MOORE_FSM.pdf, id=2553, 628.38763pt x 391.4625pt>
-File: Graphics/Practice 4/MOORE_FSM.pdf Graphic file (type pdf)
-<use Graphics/Practice 4/MOORE_FSM.pdf>
-Package pdftex.def Info: Graphics/Practice 4/MOORE_FSM.pdf  used on input line 37.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 4/MOORE_FSM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 4/MOORE_FSM.pdf, id=2589, 628.38763pt x 391.4625pt>
+File: Graphics/VHDL/Practice 4/MOORE_FSM.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 4/MOORE_FSM.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 4/MOORE_FSM.pdf  used on input line 39.
 (pdftex.def)             Requested size: 345.61427pt x 215.30502pt.
 
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 4/MEALY_FSM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 4/MEALY_FSM.pdf, id=2556, 761.84625pt x 315.21765pt>
-File: Graphics/Practice 4/MEALY_FSM.pdf Graphic file (type pdf)
-<use Graphics/Practice 4/MEALY_FSM.pdf>
-Package pdftex.def Info: Graphics/Practice 4/MEALY_FSM.pdf  used on input line 48.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 4/MEALY_FSM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 4/MEALY_FSM.pdf, id=2592, 761.84625pt x 315.21765pt>
+File: Graphics/VHDL/Practice 4/MEALY_FSM.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 4/MEALY_FSM.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 4/MEALY_FSM.pdf  used on input line 50.
 (pdftex.def)             Requested size: 342.82764pt x 141.84662pt.
-[34 <./Graphics/Practice 4/MOORE_FSM.pdf> <./Graphics/Practice 4/MEALY_FSM.pdf
+[32 <./Graphics/VHDL/Practice 4/MEALY.pdf> <./Graphics/VHDL/Practice 4/MOORE_FSM.pdf
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 4/MEALY_FSM.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [35
-
-]
-<Graphics/Practice 4/ENCODER_DRAWING.pdf, id=2613, 148.3161pt x 104.12401pt>
-File: Graphics/Practice 4/ENCODER_DRAWING.pdf Graphic file (type pdf)
-<use Graphics/Practice 4/ENCODER_DRAWING.pdf>
-Package pdftex.def Info: Graphics/Practice 4/ENCODER_DRAWING.pdf  used on input line 86.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 4/MOORE_FSM.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [33 <./Graphics/VHDL/Practice 4/MEALY_FSM.pdf>]
+<Graphics/VHDL/Practice 4/ENCODER_DRAWING.pdf, id=2663, 148.3161pt x 104.12401pt>
+File: Graphics/VHDL/Practice 4/ENCODER_DRAWING.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 4/ENCODER_DRAWING.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 4/ENCODER_DRAWING.pdf  used on input line 87.
 (pdftex.def)             Requested size: 192.81088pt x 135.36116pt.
-<Graphics/Practice 4/ENCODER_POSITION.pdf, id=2616, 159.93854pt x 81.9874pt>
-File: Graphics/Practice 4/ENCODER_POSITION.pdf Graphic file (type pdf)
-<use Graphics/Practice 4/ENCODER_POSITION.pdf>
-Package pdftex.def Info: Graphics/Practice 4/ENCODER_POSITION.pdf  used on input line 95.
+<Graphics/VHDL/Practice 4/ENCODER_POSITION.pdf, id=2666, 159.93854pt x 81.9874pt>
+File: Graphics/VHDL/Practice 4/ENCODER_POSITION.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 4/ENCODER_POSITION.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 4/ENCODER_POSITION.pdf  used on input line 96.
 (pdftex.def)             Requested size: 239.90721pt x 122.98077pt.
- [36
+ [34
 
- <./Graphics/Practice 4/ENCODER_DRAWING.pdf> <./Graphics/Practice 4/ENCODER_POSITION.pdf
+ <./Graphics/VHDL/Practice 4/ENCODER_DRAWING.pdf> <./Graphics/VHDL/Practice 4/ENCODER_POSITION.pdf
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 4/ENCODER_POSITION.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (_minted-main/403E40E38243F33F8C7973AEE4D32F0D2032165BF6D69ACE0F738551248F25A9.pygtex) [37
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 4/ENCODER_POSITION.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (_minted-main/833EE47F85E8E67E9A0177FD8A70641530ED73B1875A9FC575882CE4A629400B.pygtex) [35
 
 ]
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 4/EXERCISE_FSM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 4/EXERCISE_FSM.pdf, id=2695, 474.8139pt x 361.35pt>
-File: Graphics/Practice 4/EXERCISE_FSM.pdf Graphic file (type pdf)
-<use Graphics/Practice 4/EXERCISE_FSM.pdf>
-Package pdftex.def Info: Graphics/Practice 4/EXERCISE_FSM.pdf  used on input line 126.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 4/EXERCISE_FSM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 4/EXERCISE_FSM.pdf, id=2746, 474.8139pt x 361.35pt>
+File: Graphics/VHDL/Practice 4/EXERCISE_FSM.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 4/EXERCISE_FSM.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 4/EXERCISE_FSM.pdf  used on input line 127.
 (pdftex.def)             Requested size: 356.10956pt x 271.01184pt.
-[38 <./Graphics/Practice 4/EXERCISE_FSM.pdf>]) (Sections/Lab5_PLD.tex
-<Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf, id=2738, 242.9075pt x 101.37875pt>
-File: Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf>
-Package pdftex.def Info: Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf  used on input line 20.
+[36 <./Graphics/VHDL/Practice 4/EXERCISE_FSM.pdf>]) (Sections/VHDL/Lab5_PLD.tex
+<Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf, id=2789, 242.9075pt x 101.37875pt>
+File: Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf  used on input line 20.
 (pdftex.def)             Requested size: 242.90689pt x 101.3785pt.
-<Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf, id=2739, 242.9075pt x 101.37875pt>
-File: Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf>
-Package pdftex.def Info: Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf  used on input line 25.
+<Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf, id=2790, 242.9075pt x 101.37875pt>
+File: Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf  used on input line 25.
 (pdftex.def)             Requested size: 242.90689pt x 101.3785pt.
- [39
+ [37
 
- <./Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf> <./Graphics/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf>]
-<Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf, id=2871, 482.80376pt x 202.7575pt>
-File: Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf>
-Package pdftex.def Info: Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf  used on input line 36.
+ <./Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_1.pdf> <./Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/D-Latch_Operation_451_2.pdf>]
+<Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf, id=2922, 482.80376pt x 202.7575pt>
+File: Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf  used on input line 36.
 (pdftex.def)             Requested size: 410.38513pt x 172.34468pt.
 
 Overfull \hbox (29.68726pt too wide) in paragraph at lines 36--37
  [][] 
  []
 
+[38
+
+ <./Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf>]
+<Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf, id=2993, 333.68542pt x 380.26382pt>
+File: Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf  used on input line 51.
+(pdftex.def)             Requested size: 333.6846pt x 380.2629pt.
+ [39
+
+ <./Graphics/VHDL/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf>]
+
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 5/COUNTERS/Johnson_Counter_467.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 5/COUNTERS/Johnson_Counter_467.pdf, id=3641, 248.4656pt x 114.0902pt>
+File: Graphics/VHDL/Practice 5/COUNTERS/Johnson_Counter_467.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/COUNTERS/Johnson_Counter_467.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/COUNTERS/Johnson_Counter_467.pdf  used on input line 73.
+(pdftex.def)             Requested size: 198.77274pt x 91.27225pt.
+<Graphics/VHDL/Practice 5/COUNTERS/RING_COUNTER.pdf, id=3644, 471.7625pt x 143.53625pt>
+File: Graphics/VHDL/Practice 5/COUNTERS/RING_COUNTER.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/COUNTERS/RING_COUNTER.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/COUNTERS/RING_COUNTER.pdf  used on input line 80.
+(pdftex.def)             Requested size: 377.4105pt x 114.82915pt.
 [40
 
- <./Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/Data_Movement_451.pdf>]
-<Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf, id=2942, 333.68542pt x 380.26382pt>
-File: Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf>
-Package pdftex.def Info: Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf  used on input line 51.
-(pdftex.def)             Requested size: 333.6846pt x 380.2629pt.
+ <./Graphics/VHDL/Practice 5/COUNTERS/Johnson_Counter_467.pdf> <./Graphics/VHDL/Practice 5/COUNTERS/RING_COUNTER.pdf>]
+<Graphics/VHDL/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF, id=3764, 256.96pt x 151.56625pt>
+File: Graphics/VHDL/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF  used on input line 97.
+(pdftex.def)             Requested size: 256.95937pt x 151.56587pt.
+<Graphics/VHDL/Practice 5/KEYPAD/KEYPAD.PDF, id=3766, 169.63374pt x 223.83624pt>
+File: Graphics/VHDL/Practice 5/KEYPAD/KEYPAD.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/KEYPAD/KEYPAD.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/KEYPAD/KEYPAD.PDF  used on input line 109.
+(pdftex.def)             Requested size: 144.18935pt x 190.2617pt.
  [41
 
- <./Graphics/Practice 5/SHIFT_REGISTER_BASICS/DATA_TRANSMISSION/SIPO_and_Wave.pdf>]
-
-pdfTeX warning: pdflatex (file ./Graphics/Practice 5/COUNTERS/Johnson_Counter_467.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Graphics/Practice 5/COUNTERS/Johnson_Counter_467.pdf, id=3591, 248.4656pt x 114.0902pt>
-File: Graphics/Practice 5/COUNTERS/Johnson_Counter_467.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/COUNTERS/Johnson_Counter_467.pdf>
-Package pdftex.def Info: Graphics/Practice 5/COUNTERS/Johnson_Counter_467.pdf  used on input line 73.
-(pdftex.def)             Requested size: 198.77274pt x 91.27225pt.
-<Graphics/Practice 5/COUNTERS/RING_COUNTER.pdf, id=3594, 471.7625pt x 143.53625pt>
-File: Graphics/Practice 5/COUNTERS/RING_COUNTER.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/COUNTERS/RING_COUNTER.pdf>
-Package pdftex.def Info: Graphics/Practice 5/COUNTERS/RING_COUNTER.pdf  used on input line 80.
-(pdftex.def)             Requested size: 377.4105pt x 114.82915pt.
-[42
-
- <./Graphics/Practice 5/COUNTERS/Johnson_Counter_467.pdf> <./Graphics/Practice 5/COUNTERS/RING_COUNTER.pdf>]
-<Graphics/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF, id=3713, 256.96pt x 151.56625pt>
-File: Graphics/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF Graphic file (type pdf)
-<use Graphics/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF>
-Package pdftex.def Info: Graphics/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF  used on input line 97.
-(pdftex.def)             Requested size: 256.95937pt x 151.56587pt.
-<Graphics/Practice 5/KEYPAD/KEYPAD.PDF, id=3715, 169.63374pt x 223.83624pt>
-File: Graphics/Practice 5/KEYPAD/KEYPAD.PDF Graphic file (type pdf)
-<use Graphics/Practice 5/KEYPAD/KEYPAD.PDF>
-Package pdftex.def Info: Graphics/Practice 5/KEYPAD/KEYPAD.PDF  used on input line 109.
-(pdftex.def)             Requested size: 144.18935pt x 190.2617pt.
- [43
-
- <./Graphics/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF> <./Graphics/Practice 5/KEYPAD/KEYPAD.PDF>]
-<Graphics/Practice 5/7-SEG/3D_MODEL.pdf, id=3747, 126.4725pt x 115.43124pt>
-File: Graphics/Practice 5/7-SEG/3D_MODEL.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/3D_MODEL.pdf>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/3D_MODEL.pdf  used on input line 122.
+ <./Graphics/VHDL/Practice 5/KEYPAD/KEYPAD_BUTTONS.PDF> <./Graphics/VHDL/Practice 5/KEYPAD/KEYPAD.PDF>]
+<Graphics/VHDL/Practice 5/7-SEG/3D_MODEL.pdf, id=3798, 126.4725pt x 115.43124pt>
+File: Graphics/VHDL/Practice 5/7-SEG/3D_MODEL.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/3D_MODEL.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/3D_MODEL.pdf  used on input line 122.
 (pdftex.def)             Requested size: 113.82419pt x 103.88715pt.
-<Graphics/Practice 5/7-SEG/SEGMENTS.pdf, id=3750, 86.3225pt x 115.43124pt>
-File: Graphics/Practice 5/7-SEG/SEGMENTS.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/SEGMENTS.pdf>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/SEGMENTS.pdf  used on input line 131.
+<Graphics/VHDL/Practice 5/7-SEG/SEGMENTS.pdf, id=3801, 86.3225pt x 115.43124pt>
+File: Graphics/VHDL/Practice 5/7-SEG/SEGMENTS.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/SEGMENTS.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/SEGMENTS.pdf  used on input line 131.
 (pdftex.def)             Requested size: 86.32227pt x 115.43095pt.
- [44
+ [42
 
- <./Graphics/Practice 5/7-SEG/3D_MODEL.pdf> <./Graphics/Practice 5/7-SEG/SEGMENTS.pdf>]
+ <./Graphics/VHDL/Practice 5/7-SEG/3D_MODEL.pdf> <./Graphics/VHDL/Practice 5/7-SEG/SEGMENTS.pdf>]
 Overfull \hbox (7.64717pt too wide) in paragraph at lines 142--143
 \T1/cmr/m/n/10.95 Reg-is-ters, which, in essence, are just mul-ti-ple Flip-Flops tied to-gether (\T1/cmr/bx/n/10.95 Subsection
  []
 
-[45
+[43
 
 ]
-<Graphics/Practice 5/74HC194/ORIGINAL/F0.pdf, id=3831, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/ORIGINAL/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/ORIGINAL/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/ORIGINAL/F0.pdf , page1 used on input line 196.
+<Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F0.pdf, id=3882, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F0.pdf , page1 used on input line 196.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/ORIGINAL/F0.pdf> <a7,fr0>
-<Graphics/Practice 5/74HC194/ORIGINAL/F1.pdf, id=3856, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/ORIGINAL/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/ORIGINAL/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/ORIGINAL/F1.pdf , page1 used on input line 196.
+ <./Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F0.pdf> <a7,fr0>
+<Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F1.pdf, id=3907, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F1.pdf , page1 used on input line 196.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/ORIGINAL/F1.pdf> <a7,fr1>
-<Graphics/Practice 5/74HC194/ORIGINAL/F2.pdf, id=3881, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/ORIGINAL/F2.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/ORIGINAL/F2.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/ORIGINAL/F2.pdf , page1 used on input line 196.
+ <./Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F1.pdf> <a7,fr1>
+<Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F2.pdf, id=3932, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F2.pdf , page1 used on input line 196.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/ORIGINAL/F2.pdf> <a7,fr2>
-<Graphics/Practice 5/74HC194/ORIGINAL/F3.pdf, id=3906, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/ORIGINAL/F3.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/ORIGINAL/F3.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/ORIGINAL/F3.pdf , page1 used on input line 196.
+ <./Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F2.pdf> <a7,fr2>
+<Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F3.pdf, id=3957, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F3.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F3.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F3.pdf , page1 used on input line 196.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/ORIGINAL/F3.pdf> <a7,fr3>
-<Graphics/Practice 5/74HC194/ORIGINAL/F4.pdf, id=3931, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/ORIGINAL/F4.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/ORIGINAL/F4.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/ORIGINAL/F4.pdf , page1 used on input line 196.
+ <./Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F3.pdf> <a7,fr3>
+<Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F4.pdf, id=3982, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F4.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F4.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F4.pdf , page1 used on input line 196.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/ORIGINAL/F4.pdf> <a7,fr4>
-<Graphics/Practice 5/74HC194/ORIGINAL/F5.pdf, id=3956, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/ORIGINAL/F5.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/ORIGINAL/F5.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/ORIGINAL/F5.pdf , page1 used on input line 196.
+ <./Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F4.pdf> <a7,fr4>
+<Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F5.pdf, id=4007, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F5.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F5.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F5.pdf , page1 used on input line 196.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/ORIGINAL/F5.pdf> <a7,fr5>
-<Graphics/Practice 5/74HC194/MODIFIED/F0.pdf, id=3999, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/MODIFIED/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/MODIFIED/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/MODIFIED/F0.pdf , page1 used on input line 218.
+ <./Graphics/VHDL/Practice 5/74HC194/ORIGINAL/F5.pdf> <a7,fr5>
+<Graphics/VHDL/Practice 5/74HC194/MODIFIED/F0.pdf, id=4050, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/MODIFIED/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F0.pdf , page1 used on input line 218.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/MODIFIED/F0.pdf> <a8,fr0>
-<Graphics/Practice 5/74HC194/MODIFIED/F1.pdf, id=4024, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/MODIFIED/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/MODIFIED/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/MODIFIED/F1.pdf , page1 used on input line 218.
+ <./Graphics/VHDL/Practice 5/74HC194/MODIFIED/F0.pdf> <a8,fr0>
+<Graphics/VHDL/Practice 5/74HC194/MODIFIED/F1.pdf, id=4075, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/MODIFIED/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F1.pdf , page1 used on input line 218.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/MODIFIED/F1.pdf> <a8,fr1>
-<Graphics/Practice 5/74HC194/MODIFIED/F2.pdf, id=4049, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/MODIFIED/F2.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/MODIFIED/F2.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/MODIFIED/F2.pdf , page1 used on input line 218.
+ <./Graphics/VHDL/Practice 5/74HC194/MODIFIED/F1.pdf> <a8,fr1>
+<Graphics/VHDL/Practice 5/74HC194/MODIFIED/F2.pdf, id=4100, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/MODIFIED/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F2.pdf , page1 used on input line 218.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/MODIFIED/F2.pdf> <a8,fr2>
-<Graphics/Practice 5/74HC194/MODIFIED/F3.pdf, id=4074, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/MODIFIED/F3.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/MODIFIED/F3.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/MODIFIED/F3.pdf , page1 used on input line 218.
+ <./Graphics/VHDL/Practice 5/74HC194/MODIFIED/F2.pdf> <a8,fr2>
+<Graphics/VHDL/Practice 5/74HC194/MODIFIED/F3.pdf, id=4125, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F3.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/MODIFIED/F3.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F3.pdf , page1 used on input line 218.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/MODIFIED/F3.pdf> <a8,fr3>
-<Graphics/Practice 5/74HC194/MODIFIED/F4.pdf, id=4099, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/MODIFIED/F4.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/MODIFIED/F4.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/MODIFIED/F4.pdf , page1 used on input line 218.
+ <./Graphics/VHDL/Practice 5/74HC194/MODIFIED/F3.pdf> <a8,fr3>
+<Graphics/VHDL/Practice 5/74HC194/MODIFIED/F4.pdf, id=4150, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F4.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/MODIFIED/F4.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F4.pdf , page1 used on input line 218.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/MODIFIED/F4.pdf> <a8,fr4>
-<Graphics/Practice 5/74HC194/MODIFIED/F5.pdf, id=4124, page=1, 286.06876pt x 166.6225pt>
-File: Graphics/Practice 5/74HC194/MODIFIED/F5.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/74HC194/MODIFIED/F5.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/74HC194/MODIFIED/F5.pdf , page1 used on input line 218.
+ <./Graphics/VHDL/Practice 5/74HC194/MODIFIED/F4.pdf> <a8,fr4>
+<Graphics/VHDL/Practice 5/74HC194/MODIFIED/F5.pdf, id=4175, page=1, 286.06876pt x 166.6225pt>
+File: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F5.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/74HC194/MODIFIED/F5.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/74HC194/MODIFIED/F5.pdf , page1 used on input line 218.
 (pdftex.def)             Requested size: 286.06805pt x 166.62209pt.
- <./Graphics/Practice 5/74HC194/MODIFIED/F5.pdf> <a8,fr5> <a8,fr6> <a8,fr7> <a8,fr8> <a8,fr9> [46
+ <./Graphics/VHDL/Practice 5/74HC194/MODIFIED/F5.pdf> <a8,fr5> <a8,fr6> <a8,fr7> <a8,fr8> <a8,fr9> [44
 
-] [47]
+] [45]
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 5/AXGLYPH/Block_Diagram.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 5/AXGLYPH/Block_Diagram.pdf, id=4202, 403.5075pt x 430.60875pt>
-File: Graphics/Practice 5/AXGLYPH/Block_Diagram.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/AXGLYPH/Block_Diagram.pdf>
-Package pdftex.def Info: Graphics/Practice 5/AXGLYPH/Block_Diagram.pdf  used on input line 254.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 5/AXGLYPH/Block_Diagram.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 5/AXGLYPH/Block_Diagram.pdf, id=4252, 403.5075pt x 430.60875pt>
+File: Graphics/VHDL/Practice 5/AXGLYPH/Block_Diagram.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/AXGLYPH/Block_Diagram.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/AXGLYPH/Block_Diagram.pdf  used on input line 254.
 (pdftex.def)             Requested size: 282.45332pt x 301.42406pt.
-[48
+[46
 
- <./Graphics/Practice 5/AXGLYPH/Block_Diagram.pdf>] (_minted-main/36954C92B6BA7D8B220269D8E0EA0282297A2D7B543B7423C049D03363380277.pygtex) [49
+ <./Graphics/VHDL/Practice 5/AXGLYPH/Block_Diagram.pdf>] (_minted-main/36954C92B6BA7D8B220269D8E0EA028212B964FB53C36887C1337786ECB979C7.pygtex) [47
 
-] [50
+] [48
 
-] (_minted-main/B6A9953035723CA0A043F9120707D67C2215260FDE477F1C144CEA041039B219.pygtex) [51]
-<Graphics/Practice 5/7-SEG/ANIMATION/F0.pdf, id=4250, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F0.pdf , page1 used on input line 334.
+] (_minted-main/B6A9953035723CA0A043F9120707D67C78E6C34116569C88F91FCBCE376F2442.pygtex) [49]
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F0.pdf, id=4301, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F0.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F0.pdf> <a9,fr0>
-<Graphics/Practice 5/7-SEG/ANIMATION/F1.pdf, id=4275, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F1.pdf , page1 used on input line 334.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F0.pdf> <a9,fr0>
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F1.pdf, id=4326, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F1.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F1.pdf> <a9,fr1>
-<Graphics/Practice 5/7-SEG/ANIMATION/F2.pdf, id=4300, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F2.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F2.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F2.pdf , page1 used on input line 334.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F1.pdf> <a9,fr1>
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F2.pdf, id=4351, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F2.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F2.pdf> <a9,fr2>
-<Graphics/Practice 5/7-SEG/ANIMATION/F3.pdf, id=4325, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F3.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F3.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F3.pdf , page1 used on input line 334.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F2.pdf> <a9,fr2>
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F3.pdf, id=4376, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F3.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F3.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F3.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F3.pdf> <a9,fr3>
-<Graphics/Practice 5/7-SEG/ANIMATION/F4.pdf, id=4350, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F4.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F4.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F4.pdf , page1 used on input line 334.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F3.pdf> <a9,fr3>
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F4.pdf, id=4401, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F4.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F4.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F4.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F4.pdf> <a9,fr4>
-<Graphics/Practice 5/7-SEG/ANIMATION/F5.pdf, id=4375, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F5.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F5.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F5.pdf , page1 used on input line 334.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F4.pdf> <a9,fr4>
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F5.pdf, id=4426, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F5.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F5.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F5.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F5.pdf> <a9,fr5>
-<Graphics/Practice 5/7-SEG/ANIMATION/F6.pdf, id=4400, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F6.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F6.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F6.pdf , page1 used on input line 334.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F5.pdf> <a9,fr5>
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F6.pdf, id=4451, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F6.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F6.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F6.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F6.pdf> <a9,fr6>
-<Graphics/Practice 5/7-SEG/ANIMATION/F7.pdf, id=4425, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F7.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F7.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F7.pdf , page1 used on input line 334.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F6.pdf> <a9,fr6>
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F7.pdf, id=4476, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F7.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F7.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F7.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F7.pdf> <a9,fr7>
-<Graphics/Practice 5/7-SEG/ANIMATION/F8.pdf, id=4450, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F8.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F8.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F8.pdf , page1 used on input line 334.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F7.pdf> <a9,fr7>
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F8.pdf, id=4501, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F8.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F8.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F8.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F8.pdf> <a9,fr8>
-<Graphics/Practice 5/7-SEG/ANIMATION/F9.pdf, id=4475, page=1, 451.6875pt x 275.0275pt>
-File: Graphics/Practice 5/7-SEG/ANIMATION/F9.pdf Graphic file (type pdf)
-<use Graphics/Practice 5/7-SEG/ANIMATION/F9.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 5/7-SEG/ANIMATION/F9.pdf , page1 used on input line 334.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F8.pdf> <a9,fr8>
+<Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F9.pdf, id=4526, page=1, 451.6875pt x 275.0275pt>
+File: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F9.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F9.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F9.pdf , page1 used on input line 336.
 (pdftex.def)             Requested size: 451.68639pt x 275.02682pt.
- <./Graphics/Practice 5/7-SEG/ANIMATION/F9.pdf> <a9,fr9> [52]) (Sections/Lab6_PLD.tex
-<Graphics/Practice 6/RAM/RAM_BLOCK_DIAG.pdf, id=4524, 279.0425pt x 259.97125pt>
-File: Graphics/Practice 6/RAM/RAM_BLOCK_DIAG.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/RAM/RAM_BLOCK_DIAG.pdf>
-Package pdftex.def Info: Graphics/Practice 6/RAM/RAM_BLOCK_DIAG.pdf  used on input line 17.
+ <./Graphics/VHDL/Practice 5/7-SEG/ANIMATION/F9.pdf> <a9,fr9> [50
+
+]) (Sections/VHDL/Lab6_PLD.tex
+<Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_DIAG.pdf, id=4575, 279.0425pt x 259.97125pt>
+File: Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_DIAG.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_DIAG.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_DIAG.pdf  used on input line 18.
 (pdftex.def)             Requested size: 237.18724pt x 220.9766pt.
-<Graphics/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf, id=4527, 192.57455pt x 172.19513pt>
-File: Graphics/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf>
-Package pdftex.def Info: Graphics/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf  used on input line 25.
+<Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf, id=4578, 192.57455pt x 172.19513pt>
+File: Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf  used on input line 26.
 (pdftex.def)             Requested size: 163.68913pt x 146.36655pt.
- [53
+ [51
 
- <./Graphics/Practice 6/RAM/RAM_BLOCK_DIAG.pdf>]
-<Graphics/Practice 6/RAM/RAM_IO.pdf, id=4602, 497.86pt x 268.53296pt>
-File: Graphics/Practice 6/RAM/RAM_IO.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/RAM/RAM_IO.pdf>
-Package pdftex.def Info: Graphics/Practice 6/RAM/RAM_IO.pdf  used on input line 39.
+ <./Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_DIAG.pdf>]
+<Graphics/VHDL/Practice 6/RAM/RAM_IO.pdf, id=4652, 497.86pt x 268.53296pt>
+File: Graphics/VHDL/Practice 6/RAM/RAM_IO.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/RAM/RAM_IO.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/RAM/RAM_IO.pdf  used on input line 40.
 (pdftex.def)             Requested size: 398.28853pt x 214.82664pt.
 
-Overfull \hbox (17.59065pt too wide) in paragraph at lines 39--40
+Overfull \hbox (17.59065pt too wide) in paragraph at lines 40--41
  [][] 
  []
 
-[54 <./Graphics/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf> <./Graphics/Practice 6/RAM/RAM_IO.pdf
+[52 <./Graphics/VHDL/Practice 6/RAM/RAM_BLOCK_CONFIG.pdf> <./Graphics/VHDL/Practice 6/RAM/RAM_IO.pdf
 
-pdfTeX warning: pdflatex (file ./Graphics/Practice 6/RAM/RAM_IO.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [55
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 6/RAM/RAM_IO.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [53
 
 ]
-<Graphics/Practice 6/RAM/RAM_PROTEUS.PDF, id=4685, 151.56625pt x 141.52875pt>
-File: Graphics/Practice 6/RAM/RAM_PROTEUS.PDF Graphic file (type pdf)
-<use Graphics/Practice 6/RAM/RAM_PROTEUS.PDF>
-Package pdftex.def Info: Graphics/Practice 6/RAM/RAM_PROTEUS.PDF  used on input line 108.
+<Graphics/VHDL/Practice 6/RAM/RAM_PROTEUS.PDF, id=4736, 151.56625pt x 141.52875pt>
+File: Graphics/VHDL/Practice 6/RAM/RAM_PROTEUS.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/RAM/RAM_PROTEUS.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/RAM/RAM_PROTEUS.PDF  used on input line 109.
 (pdftex.def)             Requested size: 181.87857pt x 169.83363pt.
+ [54
+
+ <./Graphics/VHDL/Practice 6/RAM/RAM_PROTEUS.PDF>]
+<Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF, id=4753, 195.73125pt x 123.46124pt>
+File: Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF  used on input line 144.
+(pdftex.def)             Requested size: 225.08917pt x 141.9793pt.
+ [55
+
+ <./Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF>]
+<Graphics/VHDL/Practice 6/RAM/6116.pdf, id=4769, 550.65172pt x 173.48012pt>
+File: Graphics/VHDL/Practice 6/RAM/6116.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/RAM/6116.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/RAM/6116.pdf  used on input line 156.
+(pdftex.def)             Requested size: 330.39359pt x 104.08887pt.
  [56
 
- <./Graphics/Practice 6/RAM/RAM_PROTEUS.PDF>]
-<Graphics/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF, id=4702, 195.73125pt x 123.46124pt>
-File: Graphics/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF Graphic file (type pdf)
-<use Graphics/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF>
-Package pdftex.def Info: Graphics/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF  used on input line 143.
-(pdftex.def)             Requested size: 225.08917pt x 141.9793pt.
- [57
+ <./Graphics/VHDL/Practice 6/RAM/6116.pdf>]
 
- <./Graphics/Practice 6/SAFECODE/SAFECODE_PROTEUS_GAL.PDF>]
-<Graphics/Practice 6/RAM/6116.pdf, id=4718, 550.65172pt x 173.48012pt>
-File: Graphics/Practice 6/RAM/6116.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/RAM/6116.pdf>
-Package pdftex.def Info: Graphics/Practice 6/RAM/6116.pdf  used on input line 155.
-(pdftex.def)             Requested size: 330.39359pt x 104.08887pt.
- [58
-
- <./Graphics/Practice 6/RAM/6116.pdf>]
-
-pdfTeX warning: pdflatex (file ./Graphics/Practice 6/SAFECODE/SAFECODE_FSM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Graphics/Practice 6/SAFECODE/SAFECODE_FSM.pdf, id=4776, 705.59612pt x 630.31487pt>
-File: Graphics/Practice 6/SAFECODE/SAFECODE_FSM.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/SAFECODE/SAFECODE_FSM.pdf>
-Package pdftex.def Info: Graphics/Practice 6/SAFECODE/SAFECODE_FSM.pdf  used on input line 200.
+pdfTeX warning: pdflatex (file ./Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_FSM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_FSM.pdf, id=4827, 705.59612pt x 630.31487pt>
+File: Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_FSM.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_FSM.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_FSM.pdf  used on input line 201.
 (pdftex.def)             Requested size: 388.07906pt x 346.67424pt.
 
-Overfull \hbox (7.38118pt too wide) in paragraph at lines 200--201
+Overfull \hbox (7.38118pt too wide) in paragraph at lines 201--202
  [][] 
  []
 
-[59
+[57
 
- <./Graphics/Practice 6/SAFECODE/SAFECODE_FSM.pdf>] (_minted-main/0B88EBB4BF5B885BA19FC41C854D8DDA1C388C1F01B4B8A9B5D01478E05C904D.pygtex) [60
+ <./Graphics/VHDL/Practice 6/SAFECODE/SAFECODE_FSM.pdf>] (_minted-main/8FEE20E7317350B018442C7C38D64CC9903F684F3FA1D7C6F585E6C64B35A6E7.pygtex)
+<Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F0.pdf, id=4869, page=1, 415.5525pt x 379.4175pt>
+File: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F0.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F0.pdf , page1 used on input line 218.
+(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
+ <./Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F0.pdf> <a10,fr0>
+<Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F1.pdf, id=4894, page=1, 415.5525pt x 379.4175pt>
+File: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F1.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F1.pdf , page1 used on input line 218.
+(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
+ <./Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F1.pdf> <a10,fr1>
+<Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F2.pdf, id=4919, page=1, 415.5525pt x 379.4175pt>
+File: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F2.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F2.pdf , page1 used on input line 218.
+(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
+ <./Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F2.pdf> <a10,fr2>
+<Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F3.pdf, id=4944, page=1, 415.5525pt x 379.4175pt>
+File: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F3.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F3.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F3.pdf , page1 used on input line 218.
+(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
+ <./Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F3.pdf> <a10,fr3>
+<Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F4.pdf, id=4969, page=1, 415.5525pt x 379.4175pt>
+File: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F4.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F4.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F4.pdf , page1 used on input line 218.
+(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
+ <./Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F4.pdf> <a10,fr4>
+<Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F5.pdf, id=4994, page=1, 415.5525pt x 379.4175pt>
+File: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F5.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F5.pdf, page 1>
+Package pdftex.def Info: Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F5.pdf , page1 used on input line 218.
+(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
+ <./Graphics/VHDL/Practice 6/SAFECODE/ANIMATION/F5.pdf> <a10,fr5> [58
 
-]
-<Graphics/Practice 6/SAFECODE/ANIMATION/F0.pdf, id=4824, page=1, 415.5525pt x 379.4175pt>
-File: Graphics/Practice 6/SAFECODE/ANIMATION/F0.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/SAFECODE/ANIMATION/F0.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 6/SAFECODE/ANIMATION/F0.pdf , page1 used on input line 217.
-(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
- <./Graphics/Practice 6/SAFECODE/ANIMATION/F0.pdf> <a10,fr0>
-<Graphics/Practice 6/SAFECODE/ANIMATION/F1.pdf, id=4849, page=1, 415.5525pt x 379.4175pt>
-File: Graphics/Practice 6/SAFECODE/ANIMATION/F1.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/SAFECODE/ANIMATION/F1.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 6/SAFECODE/ANIMATION/F1.pdf , page1 used on input line 217.
-(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
- <./Graphics/Practice 6/SAFECODE/ANIMATION/F1.pdf> <a10,fr1>
-<Graphics/Practice 6/SAFECODE/ANIMATION/F2.pdf, id=4874, page=1, 415.5525pt x 379.4175pt>
-File: Graphics/Practice 6/SAFECODE/ANIMATION/F2.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/SAFECODE/ANIMATION/F2.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 6/SAFECODE/ANIMATION/F2.pdf , page1 used on input line 217.
-(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
- <./Graphics/Practice 6/SAFECODE/ANIMATION/F2.pdf> <a10,fr2>
-<Graphics/Practice 6/SAFECODE/ANIMATION/F3.pdf, id=4899, page=1, 415.5525pt x 379.4175pt>
-File: Graphics/Practice 6/SAFECODE/ANIMATION/F3.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/SAFECODE/ANIMATION/F3.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 6/SAFECODE/ANIMATION/F3.pdf , page1 used on input line 217.
-(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
- <./Graphics/Practice 6/SAFECODE/ANIMATION/F3.pdf> <a10,fr3>
-<Graphics/Practice 6/SAFECODE/ANIMATION/F4.pdf, id=4924, page=1, 415.5525pt x 379.4175pt>
-File: Graphics/Practice 6/SAFECODE/ANIMATION/F4.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/SAFECODE/ANIMATION/F4.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 6/SAFECODE/ANIMATION/F4.pdf , page1 used on input line 217.
-(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
- <./Graphics/Practice 6/SAFECODE/ANIMATION/F4.pdf> <a10,fr4>
-<Graphics/Practice 6/SAFECODE/ANIMATION/F5.pdf, id=4949, page=1, 415.5525pt x 379.4175pt>
-File: Graphics/Practice 6/SAFECODE/ANIMATION/F5.pdf Graphic file (type pdf)
-<use Graphics/Practice 6/SAFECODE/ANIMATION/F5.pdf, page 1>
-Package pdftex.def Info: Graphics/Practice 6/SAFECODE/ANIMATION/F5.pdf , page1 used on input line 217.
-(pdftex.def)             Requested size: 415.55148pt x 379.41656pt.
- <./Graphics/Practice 6/SAFECODE/ANIMATION/F5.pdf> <a10,fr5> [61]) (Sections/Lab7_PLD.tex
+] [59]) (Sections/VHDL/Lab7_PLD.tex
 Overfull \hbox (21.41649pt too wide) in paragraph at lines 17--18
 \T1/cmr/m/n/10.95 i.e.unwanted volt-ages which are nor-mally in-duced in logic cir-cuits by elec-tric/magnetic
  []
 
-<Graphics/Practice 8/TTL_VS_CMOS.pdf, id=4998, 185.39513pt x 336.18597pt>
-File: Graphics/Practice 8/TTL_VS_CMOS.pdf Graphic file (type pdf)
-<use Graphics/Practice 8/TTL_VS_CMOS.pdf>
-Package pdftex.def Info: Graphics/Practice 8/TTL_VS_CMOS.pdf  used on input line 22.
+<Graphics/VHDL/Practice 8/TTL_VS_CMOS.pdf, id=5049, 185.39513pt x 336.18597pt>
+File: Graphics/VHDL/Practice 8/TTL_VS_CMOS.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 8/TTL_VS_CMOS.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 8/TTL_VS_CMOS.pdf  used on input line 22.
 (pdftex.def)             Requested size: 148.3163pt x 268.94914pt.
-[62
+[60
 
-] [63 <./Graphics/Practice 8/TTL_VS_CMOS.pdf>] [64]
-<Graphics/Practice 8/BJT/IC_VCE.pdf, id=5039, 508.90125pt x 241.90373pt>
-File: Graphics/Practice 8/BJT/IC_VCE.pdf Graphic file (type pdf)
-<use Graphics/Practice 8/BJT/IC_VCE.pdf>
-Package pdftex.def Info: Graphics/Practice 8/BJT/IC_VCE.pdf  used on input line 99.
+] [61 <./Graphics/VHDL/Practice 8/TTL_VS_CMOS.pdf>] [62]
+<Graphics/VHDL/Practice 8/BJT/IC_VCE.pdf, id=5090, 508.90125pt x 241.90373pt>
+File: Graphics/VHDL/Practice 8/BJT/IC_VCE.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 8/BJT/IC_VCE.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 8/BJT/IC_VCE.pdf  used on input line 99.
 (pdftex.def)             Requested size: 380.69788pt x 180.96965pt.
-<Graphics/Practice 8/BJT/NPN_CIRCUIT.pdf, id=5042, 110.4125pt x 130.4875pt>
-File: Graphics/Practice 8/BJT/NPN_CIRCUIT.pdf Graphic file (type pdf)
-<use Graphics/Practice 8/BJT/NPN_CIRCUIT.pdf>
-Package pdftex.def Info: Graphics/Practice 8/BJT/NPN_CIRCUIT.pdf  used on input line 117.
+<Graphics/VHDL/Practice 8/BJT/NPN_CIRCUIT.pdf, id=5093, 110.4125pt x 130.4875pt>
+File: Graphics/VHDL/Practice 8/BJT/NPN_CIRCUIT.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 8/BJT/NPN_CIRCUIT.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 8/BJT/NPN_CIRCUIT.pdf  used on input line 117.
 (pdftex.def)             Requested size: 110.41222pt x 130.48717pt.
- [65
+ [63
 
- <./Graphics/Practice 8/BJT/IC_VCE.pdf> <./Graphics/Practice 8/BJT/NPN_CIRCUIT.pdf>]
-<Graphics/Practice 8/EXERCISE_1/EX_1.PDF, id=5211, 252.945pt x 195.73125pt>
-File: Graphics/Practice 8/EXERCISE_1/EX_1.PDF Graphic file (type pdf)
-<use Graphics/Practice 8/EXERCISE_1/EX_1.PDF>
-Package pdftex.def Info: Graphics/Practice 8/EXERCISE_1/EX_1.PDF  used on input line 132.
+ <./Graphics/VHDL/Practice 8/BJT/IC_VCE.pdf> <./Graphics/VHDL/Practice 8/BJT/NPN_CIRCUIT.pdf>]
+<Graphics/VHDL/Practice 8/EXERCISE_1/EX_1.PDF, id=5261, 252.945pt x 195.73125pt>
+File: Graphics/VHDL/Practice 8/EXERCISE_1/EX_1.PDF Graphic file (type pdf)
+<use Graphics/VHDL/Practice 8/EXERCISE_1/EX_1.PDF>
+Package pdftex.def Info: Graphics/VHDL/Practice 8/EXERCISE_1/EX_1.PDF  used on input line 132.
 (pdftex.def)             Requested size: 227.64839pt x 176.15648pt.
- [66 <./Graphics/Practice 8/EXERCISE_1/EX_1.PDF>] [67
+ [64 <./Graphics/VHDL/Practice 8/EXERCISE_1/EX_1.PDF>] [65
 
 ]
-<Graphics/Practice 8/BJT/DATASHEET/VCE-IC.pdf, id=5237, 249.93375pt x 178.6675pt>
-File: Graphics/Practice 8/BJT/DATASHEET/VCE-IC.pdf Graphic file (type pdf)
-<use Graphics/Practice 8/BJT/DATASHEET/VCE-IC.pdf>
-Package pdftex.def Info: Graphics/Practice 8/BJT/DATASHEET/VCE-IC.pdf  used on input line 188.
+<Graphics/VHDL/Practice 8/BJT/DATASHEET/VCE-IC.pdf, id=5288, 249.93375pt x 178.6675pt>
+File: Graphics/VHDL/Practice 8/BJT/DATASHEET/VCE-IC.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 8/BJT/DATASHEET/VCE-IC.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 8/BJT/DATASHEET/VCE-IC.pdf  used on input line 188.
 (pdftex.def)             Requested size: 249.93314pt x 178.66705pt.
-<Graphics/Practice 8/BJT/DATASHEET/VBE-IC.pdf, id=5240, 249.03851pt x 179.01474pt>
-File: Graphics/Practice 8/BJT/DATASHEET/VBE-IC.pdf Graphic file (type pdf)
-<use Graphics/Practice 8/BJT/DATASHEET/VBE-IC.pdf>
-Package pdftex.def Info: Graphics/Practice 8/BJT/DATASHEET/VBE-IC.pdf  used on input line 196.
+<Graphics/VHDL/Practice 8/BJT/DATASHEET/VBE-IC.pdf, id=5291, 249.03851pt x 179.01474pt>
+File: Graphics/VHDL/Practice 8/BJT/DATASHEET/VBE-IC.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 8/BJT/DATASHEET/VBE-IC.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 8/BJT/DATASHEET/VBE-IC.pdf  used on input line 196.
 (pdftex.def)             Requested size: 249.03789pt x 179.0143pt.
-<Graphics/Practice 8/BJT/DATASHEET/BETA-IC.pdf, id=5243, 248.93pt x 178.6675pt>
-File: Graphics/Practice 8/BJT/DATASHEET/BETA-IC.pdf Graphic file (type pdf)
-<use Graphics/Practice 8/BJT/DATASHEET/BETA-IC.pdf>
-Package pdftex.def Info: Graphics/Practice 8/BJT/DATASHEET/BETA-IC.pdf  used on input line 203.
+<Graphics/VHDL/Practice 8/BJT/DATASHEET/BETA-IC.pdf, id=5294, 248.93pt x 178.6675pt>
+File: Graphics/VHDL/Practice 8/BJT/DATASHEET/BETA-IC.pdf Graphic file (type pdf)
+<use Graphics/VHDL/Practice 8/BJT/DATASHEET/BETA-IC.pdf>
+Package pdftex.def Info: Graphics/VHDL/Practice 8/BJT/DATASHEET/BETA-IC.pdf  used on input line 203.
 (pdftex.def)             Requested size: 248.92938pt x 178.66705pt.
- [68
+ [66
 
- <./Graphics/Practice 8/BJT/DATASHEET/VCE-IC.pdf> <./Graphics/Practice 8/BJT/DATASHEET/VBE-IC.pdf>] [69 <./Graphics/Practice 8/BJT/DATASHEET/BETA-IC.pdf>]) [70
+ <./Graphics/VHDL/Practice 8/BJT/DATASHEET/VCE-IC.pdf> <./Graphics/VHDL/Practice 8/BJT/DATASHEET/VBE-IC.pdf>] [67 <./Graphics/VHDL/Practice 8/BJT/DATASHEET/BETA-IC.pdf>]) [68
+
+] (Sections/MICROS/Lab1_uC.tex [69
+
+]
+<Graphics/MICROS/Practice 1/ARDUINO/ATMEGA328P_PINOUT.pdf, id=5401, 642.40012pt x 248.4673pt>
+File: Graphics/MICROS/Practice 1/ARDUINO/ATMEGA328P_PINOUT.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ARDUINO/ATMEGA328P_PINOUT.pdf>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ARDUINO/ATMEGA328P_PINOUT.pdf  used on input line 21.
+(pdftex.def)             Requested size: 353.32115pt x 136.65742pt.
+<Graphics/MICROS/Practice 1/ARDUINO/BOARD.pdf, id=5404, 804.00375pt x 532.99126pt>
+File: Graphics/MICROS/Practice 1/ARDUINO/BOARD.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ARDUINO/BOARD.pdf>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ARDUINO/BOARD.pdf  used on input line 35.
+(pdftex.def)             Requested size: 402.0009pt x 266.49498pt.
+
+Overfull \hbox (21.30302pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+[70 <./Graphics/MICROS/Practice 1/ARDUINO/ATMEGA328P_PINOUT.pdf>]
+<Graphics/MICROS/Practice 1/ARDUINO/INTERNAL_PIN_SETTING.pdf, id=5766, 396.48125pt x 404.51125pt>
+File: Graphics/MICROS/Practice 1/ARDUINO/INTERNAL_PIN_SETTING.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ARDUINO/INTERNAL_PIN_SETTING.pdf>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ARDUINO/INTERNAL_PIN_SETTING.pdf  used on input line 65.
+(pdftex.def)             Requested size: 356.82982pt x 364.05675pt.
+ [71 <./Graphics/MICROS/Practice 1/ARDUINO/BOARD.pdf>] [72 <./Graphics/MICROS/Practice 1/ARDUINO/INTERNAL_PIN_SETTING.pdf>] (_minted-main/D4E79C53E8691A37A0DF1E601607411A5BF1158BE0CD45866703A818E3210143.pygtex) (_minted-main/D19947A17B1C468497F698FC2B231C522218FD1D2D698228B762A2F355267FEA.pygtex) (_minted-main/28A49EFDF2DD8801F8BB102EC6DC158BE89D008815FB29592F74CB4FF65C3CE8.pygtex) [73
+
+] (_minted-main/2CD0B9ACC60AAFDC1B2C703B3AAD25AC1F247B57514B94138CF99791F62EFA26.pygtex) (_minted-main/3F58CEAC9F62936E5BE909B29F73AE714E0BF1751D45807B0009820BCF6B439F.pygtex) (_minted-main/923D5F3951F87629323AEC03E918FEA913242F5742FA5BBE36F799FD3C84C0C9.pygtex) [74
 
 ]
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 193.
+pdfTeX warning: pdflatex (file ./Graphics/MICROS/Practice 1/BLOCK-DIAGRAM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Graphics/MICROS/Practice 1/BLOCK-DIAGRAM.pdf, id=6544, 414.58891pt x 653.44125pt>
+File: Graphics/MICROS/Practice 1/BLOCK-DIAGRAM.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/BLOCK-DIAGRAM.pdf>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/BLOCK-DIAGRAM.pdf  used on input line 146.
+(pdftex.def)             Requested size: 248.75526pt x 392.06776pt.
+[75
 
-[71
-
+ <./Graphics/MICROS/Practice 1/BLOCK-DIAGRAM.pdf>] (_minted-main/25041BE626775273EFC95F0104F4CB15AEAC4753684C26C488ED06153A590C75.pygtex) [76
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+<Graphics/MICROS/Practice 1/ANIMATION/F0.pdf, id=6577, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F0.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F0.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F0.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F0.pdf> <a11,fr0>
+<Graphics/MICROS/Practice 1/ANIMATION/F1.pdf, id=6602, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F1.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F1.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F1.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F1.pdf> <a11,fr1>
+<Graphics/MICROS/Practice 1/ANIMATION/F2.pdf, id=6627, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F2.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F2.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F2.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F2.pdf> <a11,fr2>
+<Graphics/MICROS/Practice 1/ANIMATION/F3.pdf, id=6652, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F3.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F3.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F3.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F3.pdf> <a11,fr3>
+<Graphics/MICROS/Practice 1/ANIMATION/F4.pdf, id=6677, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F4.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F4.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F4.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F4.pdf> <a11,fr4>
+<Graphics/MICROS/Practice 1/ANIMATION/F5.pdf, id=6702, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F5.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F5.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F5.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F5.pdf> <a11,fr5>
+<Graphics/MICROS/Practice 1/ANIMATION/F6.pdf, id=6727, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F6.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F6.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F6.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F6.pdf> <a11,fr6>
+<Graphics/MICROS/Practice 1/ANIMATION/F7.pdf, id=6752, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F7.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F7.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F7.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F7.pdf> <a11,fr7>
+<Graphics/MICROS/Practice 1/ANIMATION/F8.pdf, id=6777, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F8.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F8.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F8.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F8.pdf> <a11,fr8>
+<Graphics/MICROS/Practice 1/ANIMATION/F9.pdf, id=6802, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F9.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F9.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F9.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F9.pdf> <a11,fr9>
+<Graphics/MICROS/Practice 1/ANIMATION/F10.pdf, id=6827, page=1, 527.9725pt x 209.78375pt>
+File: Graphics/MICROS/Practice 1/ANIMATION/F10.pdf Graphic file (type pdf)
+<use Graphics/MICROS/Practice 1/ANIMATION/F10.pdf, page 1>
+Package pdftex.def Info: Graphics/MICROS/Practice 1/ANIMATION/F10.pdf , page1 used on input line 174.
+(pdftex.def)             Requested size: 527.9712pt x 209.78322pt.
+ <./Graphics/MICROS/Practice 1/ANIMATION/F10.pdf> <a11,fr10>
+Overfull \hbox (15.28052pt too wide) in paragraph at lines 174--179
+ [][][][][][][][][][][][][][] 
+ []
+
+) [77
+
+]
+Overfull \hbox (7.60898pt too wide) in paragraph at lines 220--220
+[]\T1/cmr/m/it/10.95 Atmega328p: 8-bit avr mi-cro-con-troller with 32k bytes in-system pro-grammable
+ []
+
+[78
+
+] [79]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
  (main.aux (Title_Page.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9B09825C4EE04952E03C03AB237F9E18;4536.
+(rerunfilecheck)             Checksum: 4FF57EE0C55E347AF6A5028BF1D70047;5469.
 
 
 LaTeX Warning: There were multiply-defined labels.
-
-runsystem(del main.pyg)...executed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46846 strings out of 480892
- 1107216 string characters out of 2899448
- 1867543 words of memory out of 3000000
- 61482 multiletter control sequences out of 15000+200000
+ 47061 strings out of 480892
+ 1121827 string characters out of 2899448
+ 1867843 words of memory out of 3000000
+ 61635 multiletter control sequences out of 15000+200000
  593878 words of font info for 129 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,19n,136p,1450b,2053s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 79i,19n,136p,1539b,2055s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/stix/stix-t1.enc}<C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/stix/STIXGeneral-Italic.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/stix/STIXGeneral-Regular.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmb8a.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1095.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfti0900.pfb><C:/Users/Pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (73 pages, 6197061 bytes).
+Output written on main.pdf (82 pages, 7208153 bytes).
 PDF statistics:
- 5529 PDF objects out of 6186 (max. 8388607)
- 249 named destinations out of 1000 (max. 500000)
- 3100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7075 PDF objects out of 7423 (max. 8388607)
+ 279 named destinations out of 1000 (max. 500000)
+ 3535 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)\PYGZob{}}
+    \PYG{c+cm}{/* Sets the direction register of the PORTB on 0xff }
+\PYG{c+cm}{    (all pins as output): */}
+    \PYG{n}{DDRB} \PYG{o}{=} \PYG{l+m+mh}{0xFF}\PYG{p}{;} 
+    \PYG{c+cm}{/* PORTB sets remaining on 0x03, bit 0 and 1 “high”, “low”: */}
+    \PYG{n}{PORTB} \PYG{o}{=} \PYG{l+m+mh}{0x03}\PYG{p}{;}
+\PYG{p}{...\PYGZcb{}}
+\end{Verbatim}
