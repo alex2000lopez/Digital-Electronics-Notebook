@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/* Initialize HC595 system */}
+
+\PYG{n}{HC595Init}\PYG{p}{();}
+
+\PYG{c+cm}{/* To write data to the 4 7\PYGZhy{}seg displays we use the following command*/}
+
+\PYG{n}{HC595Write}\PYG{p}{(}\PYG{n}{var}\PYG{p}{);} \PYG{c+c1}{// Where \PYGZdq{}var\PYGZdq{} is a variable of type uint16\PYGZus{}t}
+\end{Verbatim}

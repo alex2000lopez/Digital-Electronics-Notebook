@@ -1,0 +1,73 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}define F\PYGZus{}CPU16000000UL}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}avr/io.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdint.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}avr/interrupt.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}util/delay.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}7SEG\PYGZus{}HC595.h\PYGZgt{}}
+
+\PYG{k+kt}{float} \PYG{n}{ADCvalue\PYGZus{}vol}\PYG{p}{;}
+\PYG{k+kt}{uint8\PYGZus{}t} \PYG{n}{ones}\PYG{p}{,} \PYG{n}{tenth}\PYG{p}{,} \PYG{n}{hundredth}\PYG{p}{;}
+\PYG{k+kt}{uint16\PYGZus{}t} \PYG{n}{disp\PYGZus{}hu}\PYG{p}{,} \PYG{n}{disp\PYGZus{}te}\PYG{p}{,} \PYG{n}{disp\PYGZus{}on}\PYG{p}{;}
+
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+	\PYG{n}{ADMUX}  \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{REFS0}\PYG{p}{);}             \PYG{c+c1}{// use AVccas the reference}
+	\PYG{n}{ADMUX}  \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{MUX2}\PYG{p}{);}			  \PYG{c+c1}{// Set address pin to ADC4 (0100)}
+	\PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADATE}\PYG{p}{);}             \PYG{c+c1}{// Set ADC Auto Trigger}
+	
+	\PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADPS2}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADPS1}\PYG{p}{)}\PYG{o}{|}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADPS0}\PYG{p}{);}   \PYG{c+c1}{// 128 prescale for 16Mhz}
+	\PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADEN}\PYG{p}{);}              \PYG{c+c1}{// Enable the ADC}
+	\PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADIE}\PYG{p}{);}              \PYG{c+c1}{// EnableInterrupts}
+	
+	
+	\PYG{n}{sei}\PYG{p}{();}
+	\PYG{n}{ADCSRA} \PYG{o}{|=}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADSC}\PYG{p}{);}               \PYG{c+c1}{// Start the ADC conversion}
+	
+	\PYG{n}{HC595Init}\PYG{p}{();}                      \PYG{c+c1}{//Initialize HC595 system}
+	
+	\PYG{k}{while}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+	\PYG{p}{\PYGZob{}}
+		\PYG{c+cm}{/* Extract the float ones */}
+		\PYG{n}{ones}\PYG{o}{=}\PYG{p}{(}\PYG{k+kt}{unsigned} \PYG{k+kt}{int}\PYG{p}{)(}\PYG{n}{ADCvalue\PYGZus{}vol}\PYG{o}{*}\PYG{l+m+mi}{10}\PYG{p}{)}\PYG{o}{\PYGZpc{}}\PYG{l+m+mi}{10}\PYG{p}{;} 
+
+		\PYG{c+cm}{/* Convert the ones into 7\PYGZhy{}segment common anode code */} 
+		\PYG{n}{ones}\PYG{o}{=}\PYG{n}{led\PYGZus{}pattern}\PYG{p}{[}\PYG{n}{ones}\PYG{p}{];} 
+
+
+		\PYG{c+cm}{/* Extract the float tenth */}									
+		\PYG{n}{tenth}\PYG{o}{=}\PYG{p}{(}\PYG{k+kt}{unsigned} \PYG{k+kt}{long} \PYG{k+kt}{int}\PYG{p}{)(}\PYG{n}{ADCvalue\PYGZus{}vol}\PYG{o}{*}\PYG{l+m+mi}{100}\PYG{p}{)}\PYG{o}{\PYGZpc{}}\PYG{l+m+mi}{10}\PYG{p}{;} 
+
+		\PYG{c+cm}{/* Convert the tenth into 7\PYGZhy{}segment common anode code */}
+		\PYG{n}{tenth}\PYG{o}{=}\PYG{n}{led\PYGZus{}pattern}\PYG{p}{[}\PYG{n}{tenth}\PYG{p}{];} 
+		
+
+		\PYG{c+cm}{/* Extract the float hundredth */}
+		\PYG{n}{hundredth}\PYG{o}{=}\PYG{p}{(}\PYG{k+kt}{unsigned} \PYG{k+kt}{long} \PYG{k+kt}{int}\PYG{p}{)(}\PYG{n}{ADCvalue\PYGZus{}vol}\PYG{o}{*}\PYG{l+m+mi}{1000}\PYG{p}{)}\PYG{o}{\PYGZpc{}}\PYG{l+m+mi}{10}\PYG{p}{;}
+
+		\PYG{c+cm}{/* Convert the hundredth into 7\PYGZhy{}segment common anode code */}
+		\PYG{n}{hundredth}\PYG{o}{=}\PYG{n}{led\PYGZus{}pattern}\PYG{p}{[}\PYG{n}{hundredth}\PYG{p}{];} 
+		
+		\PYG{c+cm}{/*Form a word with the high part for the data and the low}
+\PYG{c+cm}{		 for the display */}
+
+		\PYG{n}{disp\PYGZus{}on}\PYG{o}{=}\PYG{p}{((}\PYG{n}{ones}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{l+m+mi}{8}\PYG{p}{)}\PYG{o}{|}\PYG{l+m+mh}{0x02}\PYG{p}{);}
+		\PYG{n}{disp\PYGZus{}te}\PYG{o}{=}\PYG{p}{((}\PYG{n}{tenth}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{l+m+mi}{8}\PYG{p}{)}\PYG{o}{|}\PYG{l+m+mh}{0x04}\PYG{p}{);}
+		\PYG{n}{disp\PYGZus{}hu}\PYG{o}{=}\PYG{p}{((}\PYG{n}{hundredth}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{l+m+mi}{8}\PYG{p}{)}\PYG{o}{|}\PYG{l+m+mh}{0x08}\PYG{p}{);}
+		
+		\PYG{n}{HC595Write}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{n}{X7F04}\PYG{p}{);}		\PYG{c+cm}{/* Point ones */}
+		\PYG{n}{HC595Write}\PYG{p}{(}\PYG{n}{disp\PYGZus{}on}\PYG{p}{);}	\PYG{c+cm}{/* Write the ones data to HC595 */}
+		\PYG{n}{HC595Write}\PYG{p}{(}\PYG{n}{disp\PYGZus{}te}\PYG{p}{);}	\PYG{c+cm}{/* Write the tenth data to HC595 */}
+		\PYG{n}{HC595Write}\PYG{p}{(}\PYG{n}{disp\PYGZus{}hu}\PYG{p}{);}	\PYG{c+cm}{/* Write the hundredthdata to HC595 */}
+		\PYG{n}{HC595Write}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{n}{XFF01}\PYG{p}{);}		\PYG{c+cm}{/* thousands off */}
+		
+	\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{n}{ISR}\PYG{p}{(}\PYG{n}{ADC\PYGZus{}vect}\PYG{p}{)\PYGZob{}}
+	
+	\PYG{n}{ADCvalue\PYGZus{}vol}\PYG{o}{=}\PYG{p}{(}\PYG{n}{ADCW}\PYG{o}{*}\PYG{l+m+mf}{5.0}\PYG{p}{)}\PYG{o}{/}\PYG{l+m+mf}{1024.0}\PYG{p}{;} \PYG{c+cm}{/* Calculate the input voltage }
+\PYG{c+cm}{									   from the ADC reading*/}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,34 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}avr/eeprom.h\PYGZgt{} // To include the library}
+
+\PYG{k+kt}{uint8\PYGZus{}t} \PYG{n}{EEMEM} \PYG{n}{yourVar}\PYG{p}{[}\PYG{n}{n}\PYG{p}{];} \PYG{c+c1}{// Allocate an n\PYGZhy{}bit array in the EEPROM}
+
+\PYG{c+cm}{/****************************************************************************}
+\PYG{c+cm}{                                WRITING OPERATION}
+\PYG{c+cm}{****************************************************************************/} 
+\PYG{c+cm}{/* The basic command to perform a writing operation is */}
+
+\PYG{n}{eeprom\PYGZus{}write\PYGZus{}byte}\PYG{p}{(}\PYG{n}{arg\PYGZus{}1}\PYG{p}{,} \PYG{n}{arg\PYGZus{}2}\PYG{p}{);}
+
+\PYG{c+cm}{/*  Where:}
+
+\PYG{c+cm}{arg\PYGZus{}1 \PYGZhy{}\PYGZgt{} ADDRESS (NOT variable) in the EEPROM where the value is going to be }
+\PYG{c+cm}{         stored. To obtain the address of a variable we put a \PYGZam{} before the }
+\PYG{c+cm}{         variable:}
+
+\PYG{c+cm}{arg\PYGZus{}2 \PYGZhy{}\PYGZgt{} Value to be stored.}
+
+\PYG{c+cm}{An example of this might be:}
+
+\PYG{c+cm}{eeprom\PYGZus{}write\PYGZus{}byte(\PYGZam{}yourVar, value); /* To write the value \PYGZdq{}value\PYGZdq{} into the }
+\PYG{c+cm}{                                       EEPROM variable \PYGZdq{}yourVar\PYGZdq{} */}
+\PYG{err}{*/}
+
+\PYG{c+cm}{/****************************************************************************}
+\PYG{c+cm}{                                READING OPERATION}
+\PYG{c+cm}{****************************************************************************/} 
+
+\PYG{n}{value} \PYG{o}{=} \PYG{n}{eeprom\PYGZus{}read\PYGZus{}byte}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{yourVar}\PYG{p}{);} \PYG{c+c1}{// To read the value from the EEPROM}
+
+\PYG{c+c1}{// The variables are bytes, so uint8\PYGZus{}t and char can be used as variables}
+\end{Verbatim}

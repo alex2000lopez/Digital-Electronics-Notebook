@@ -1,0 +1,36 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZdq{}lcd.h\PYGZdq{} // To include the library}
+
+\PYG{n}{lcd\PYGZus{}init}\PYG{p}{(}\PYG{k+kt}{uint8\PYGZus{}t} \PYG{n}{dispAttr}\PYG{p}{);} \PYG{c+c1}{// Initialize display and select type of cursor.}
+
+\PYG{c+cm}{/*  Parameters}
+
+\PYG{c+cm}{dispAttr    LCD\PYGZus{}DISP\PYGZus{}OFF display off}
+\PYG{c+cm}{            LCD\PYGZus{}DISP\PYGZus{}ON display on, cursor off}
+\PYG{c+cm}{            LCD\PYGZus{}DISP\PYGZus{}ON\PYGZus{}CURSOR display on, cursor on}
+\PYG{c+cm}{            LCD\PYGZus{}DISP\PYGZus{}ON\PYGZus{}CURSOR\PYGZus{}BLINK display on, cursor on flashing}
+
+\PYG{c+cm}{*/}
+
+
+\PYG{n}{lcd\PYGZus{}gotoxy} \PYG{p}{(}\PYG{k+kt}{uint8\PYGZus{}t} \PYG{n}{x}\PYG{p}{,} \PYG{k+kt}{uint8\PYGZus{}t} \PYG{n}{y}\PYG{p}{);} \PYG{c+c1}{// Set cursor to specified position.}
+
+\PYG{c+cm}{/*  Parameters}
+
+\PYG{c+cm}{x   horizontal position (0: left most position)}
+\PYG{c+cm}{y   vertical position (0: first line)}
+
+\PYG{c+cm}{*/}
+
+
+\PYG{n}{lcd\PYGZus{}clrscr}\PYG{p}{();} \PYG{c+c1}{// Clear display and set cursor to home position.}
+
+
+\PYG{n}{lcd\PYGZus{}puts}\PYG{p}{(}\PYG{k}{const} \PYG{k+kt}{char} \PYG{o}{*}\PYG{n}{s}\PYG{p}{);}
+
+\PYG{c+cm}{/*  Parameters}
+
+\PYG{c+cm}{s   string to be displayed}
+
+\PYG{c+cm}{*/}
+\end{Verbatim}

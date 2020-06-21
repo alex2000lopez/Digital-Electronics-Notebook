@@ -1,6 +1,6 @@
 \section{Laboratory Lecture 1: Stepper Motor Controller}
 
-The aim of this laboratory session is to design a stepper motor controller using an ATMega328P microcontroller. Since the basics of stepper motors have already been covered in \textbf{Section \ref{sec:STEPPER_MOTOR}}, they will not be discussed again. However, a brief introduction to the ATMega328p is necessary to fully understand this laboratory session.
+The aim of this laboratory session is to design a stepper motor controller using an ATMega328P microcontroller. Since the basics of stepper motors have already been covered in \textbf{Section \ref{sec:STEPPER_MOTOR}}, they will not be discussed again. However, a brief introduction to the ATMega328P is necessary to fully understand this laboratory session.
 
 \subsection{Introduction}
 
@@ -12,7 +12,7 @@ The Atmel ATMega328P provides the following features: 32K bytes of in-system pro
 
 The device is manufactured using Atmel high density non-volatile memory technology. The on-chip ISP flash allows the program memory to be reprogrammed in-system through an SPI serial interface, by a conventional non-volatile memory programmer, or by an on-chip boot program running on the AVR core. The boot program can use any interface to download the application program in the application flash memory. Software in the boot flash section will continue to run while the application flash section is updated, providing true read-while-write operation. By combining an 8-bit RISC CPU within-system self-programmable flash on a monolithic chip, the Atmel ATmega328P is a powerful microcontroller that provides a highly flexible and cost effective solution to many embedded control applications.\medskip
 
-The ATMega328P AVR is supported with a full suite of program and system development tools including: C compilers, macro assemblers, program debugger/simulators, in-circuit emulators, and evaluation kits.~\autocite{ATMEGA328P}\medskip
+The ATMega328P AVR is supported with a full suite of programs and system development tools including: C compilers, macro assemblers, program debugger/simulators, in-circuit emulators, and evaluation kits.~\autocite{ATMEGA328P}\medskip
 
 A diagram describing its pinout can be found below:
 
@@ -25,8 +25,11 @@ A diagram describing its pinout can be found below:
 
 
 \subsection{Arduino}
+\label{sec:ARDUINO}
 
 The popularity of the ATMega328P can be attributed to its use in the Arduino development board, the design of which falls within the Open Source Hardware category/movement. For our designs, as well as for real-life testing, we will use this board, in particular the Arduino UNO, which breaks out most of the pins into headers, supplies the ATMega with a stable voltage and provides native USB communication.\medskip
+
+\clearpage
 
 A diagram of the Arduino UNO board can be found below:
 
@@ -48,15 +51,17 @@ The ATMega328P has 3 8-bit ports, namely B, C, D. Each port is controlled by thr
         \begin{itemize}
             \item Defines wheter a pin in as input (0) or an output (1)
         \end{itemize}
-    \item \textbf{PINx -} Pin Input Value
+    \item \textbf{PINx -} Pin Input Value Register
         \begin{itemize}
             \item Reading this register bit returns the value of the specific pin.
         \end{itemize}
-    \item \textbf{PORTx - } Pin Output Value:
+    \item \textbf{PORTx - } Pin Output Value Register
         \begin{itemize}
             \item Writing to this register SETS the value of a pin.
         \end{itemize}
 \end{enumerate}
+
+\clearpage
 
 The internal circuit that controls the state of each pin can be seen below:
 
@@ -66,6 +71,42 @@ The internal circuit that controls the state of each pin can be seen below:
     \caption{Internal I/O individual control circuit~\autocite{ATMEGA328P}}
     \label{fig:I/O_CONTROL}
 \end{figure}
+
+
+To interact with the 3 mentioned ports, some information regarding the registers, DDRx, PINx, and PORTx, must be known. This information can be found in the datasheet~\autocite{ATMEGA328P}.\medskip
+
+Attached below is an example of all of the registers bound to PORTB.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{Graphics/MICROS/Practice 1/DATSHEET/DDRB.pdf}
+    \caption{DDRB - Direction Register B (Used to set pins as I/O)}
+    \label{fig:DDRB}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{Graphics/MICROS/Practice 1/DATSHEET/PINB.pdf}
+    \caption{PINB - PORTB Input Pins Address (Used to read the value of an specific pin)}
+    \label{fig:PINB}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{Graphics/MICROS/Practice 1/DATSHEET/PORTB.pdf}
+    \caption{PORTB - PORTB Data Register (Used to set the Output value and the pull-ups)}
+    \label{fig:PORTB}
+\end{figure}
+
+We can also find an addional register called \textit{MCUCR} in the datasheet. Setting its PUD bit (bit 4) to 1, will disable the pull-ups, even if the DDxn and the PORTxn registers are configured to enable them. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{Graphics/MICROS/Practice 1/DATSHEET/MCUCR.pdf}
+    \caption{MCUCR – MCU Control Register}
+    \label{fig:MCUR}
+\end{figure}
+
 
 By changing the state of the corresponing bits of each of the three registers, the behaviour if the pin can be changed. The possible combinations are listed below:
 
@@ -89,13 +130,15 @@ By changing the state of the corresponing bits of each of the three registers, t
         }
 \end{table}
 
+
 \clearpage
 
 \subsection{C Applied to Microcontrollers}
 
 To program the ATMega328P, as well as most microcontrollers, we will use C. C offers the benefit of being a high-level language, i.e., it is nos as hard to understand as Machine code or Assembly. Even though programming in C or in other high-level languages is not as efficient as directly programming in Assembly, since it has to go though a compiles, its simplicity normally outweights the decrease in code efficiency. \medskip
 
-We will now go over the basics of writing and reading to the registers that have been previously mentioned..
+We will now go over the basics of writing and reading to the registers that have been previously mentioned.
+
 
 \subsubsection{Reading from an I/O Register}
 
@@ -133,7 +176,7 @@ Multiple bits can be written to at the same time as well:
 
 \subsection{Exercise 1: Stepper Motor Controller}
 
-Now that we have established the basics, it is time to move on to solving the proposed exercise. As we saw in \textbf{Section \ref{sec:STEPPER_MOTOR}}, a stepper motor can be controlled using three methods, namely, Full-Step, Half-Step, ans Wave-Step. 
+Now that we have established the basics, it is time to move on to solving the proposed exercise. As we saw in \textbf{Section \ref{sec:STEPPER_MOTOR}}, a stepper motor can be controlled using three methods, namely, Full-Step, Half-Step, and Wave-Step.\medskip 
 
 In this practice we will only focus on the first method, as the others are very similar and do not pose more of a challenge than the first one.\medskip
 
@@ -182,7 +225,7 @@ This can be seen in the following animation:
 \end{figure}
 
 
-
+\clearpage
 
 
 

@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZdq{}keypad3x4.h\PYGZdq{} // To include the library}
+
+\PYG{n}{GetKeyPressed}\PYG{p}{();} \PYG{c+c1}{// Get the char keycode of pressed key}
+
+\PYG{c+cm}{/*******************************************************}
+\PYG{c+cm}{Function returns the keycode of key pressed on the Keypad.}
+
+\PYG{c+cm}{       KEYPAD  Membrane}
+\PYG{c+cm}{COL1 \PYGZhy{}\PYGZgt{}  PD0  \PYGZhy{}\PYGZgt{} PD2}
+\PYG{c+cm}{COL2 \PYGZhy{}\PYGZgt{}  PD1  \PYGZhy{}\PYGZgt{} PD1}
+\PYG{c+cm}{COL3 \PYGZhy{}\PYGZgt{}  PD2  \PYGZhy{}\PYGZgt{} PD0}
+\PYG{c+cm}{ROW1 \PYGZhy{}\PYGZgt{}  PD3  \PYGZhy{}\PYGZgt{} PD6}
+\PYG{c+cm}{ROW2 \PYGZhy{}\PYGZgt{}  PD4  \PYGZhy{}\PYGZgt{} PD5}
+\PYG{c+cm}{ROW3 \PYGZhy{}\PYGZgt{}  PD5  \PYGZhy{}\PYGZgt{} PD4}
+\PYG{c+cm}{ROW4 \PYGZhy{}\PYGZgt{}  PD6  \PYGZhy{}\PYGZgt{} PD3}
+
+\PYG{c+cm}{Return:}
+\PYG{c+cm}{[1] [2] [3]}
+\PYG{c+cm}{[4] [5] [6]}
+\PYG{c+cm}{[7] [8] [9]}
+\PYG{c+cm}{[*] [0] [\PYGZsh{}]}
+
+\PYG{c+cm}{255 (hex 0xFF) if NO key pressed.}
+\PYG{c+cm}{*******************************************/}
+\end{Verbatim}

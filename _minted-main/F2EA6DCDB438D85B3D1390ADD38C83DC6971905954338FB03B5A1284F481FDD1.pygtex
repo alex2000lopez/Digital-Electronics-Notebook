@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}avr/interrupt.h\PYGZgt{} /* To include the Interrupt header, which contains }
+                            \PYG{n}{the} \PYG{n}{functions} \PYG{k}{for} \PYG{n}{interrupt} \PYG{n}{processing}\PYG{p}{.} \PYG{err}{*/}
+
+
+\PYG{n}{sei}\PYG{p}{();}
+\PYG{c+cm}{/* The macro sei () switches on the interrupts (Sets the Interrupt Enable Bit }
+\PYG{c+cm}{in the SREG to 1). No other action is performed. */}
+
+\PYG{n}{cli}\PYG{p}{();}
+\PYG{c+cm}{/* The macro cli () switches the interrupts off (Sets the Interrupt Enable Bit }
+\PYG{c+cm}{in the SREG to 0). No other action is performed. */}                
+
+
+\PYG{c+cm}{/* To define the ISR we use the following syntax */}
+
+\PYG{n}{ISR}\PYG{p}{(}\PYG{n}{interrupt} \PYG{n}{vector} \PYG{n}{name}\PYG{p}{)\PYGZob{}}
+    \PYG{c+c1}{//ISR code}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+cm}{/* The interrupt vector name can be found in the header file iom328p.h */}
+\end{Verbatim}

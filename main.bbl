@@ -474,6 +474,85 @@
       \verb http://diwo.bq.com/pinout-uno/
       \endverb
     \endentry
+    \entry{ARDUINO}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d2dcaa429d77698c2ace9ccd5db2a568}{%
+           family={{Arduino LLC}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Torino, Italy}%
+      }
+      \strng{namehash}{d2dcaa429d77698c2ace9ccd5db2a568}
+      \strng{fullhash}{d2dcaa429d77698c2ace9ccd5db2a568}
+      \strng{bibnamehash}{d2dcaa429d77698c2ace9ccd5db2a568}
+      \strng{authorbibnamehash}{d2dcaa429d77698c2ace9ccd5db2a568}
+      \strng{authornamehash}{d2dcaa429d77698c2ace9ccd5db2a568}
+      \strng{authorfullhash}{d2dcaa429d77698c2ace9ccd5db2a568}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st}
+      \field{title}{The Arduino Projects Book}
+      \field{year}{2012}
+    \endentry
+    \entry{SLIDES_MICROS}{book}{}
+      \name{author}{1}{}{%
+        {{hash=446d56e7d4c4679f45036a59d69f5dad}{%
+           family={Ferrer},
+           familyi={F\bibinitperiod},
+           given={José\bibnamedelimb Maria\bibnamedelima Monzo},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Valencia, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Politécnica de Valencia}%
+      }
+      \strng{namehash}{446d56e7d4c4679f45036a59d69f5dad}
+      \strng{fullhash}{446d56e7d4c4679f45036a59d69f5dad}
+      \strng{bibnamehash}{446d56e7d4c4679f45036a59d69f5dad}
+      \strng{authorbibnamehash}{446d56e7d4c4679f45036a59d69f5dad}
+      \strng{authornamehash}{446d56e7d4c4679f45036a59d69f5dad}
+      \strng{authorfullhash}{446d56e7d4c4679f45036a59d69f5dad}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Digital Electronics}
+      \field{title}{Lecture 10.2: Microcontroller AVR 8 Bits (ATMega328P). Part II}
+      \field{year}{2020}
+    \endentry
+    \entry{ADC_PROCESS}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cb3e42f3f714c12e6e25cb578b025b76}{%
+           family={Zeghid},
+           familyi={Z\bibinitperiod},
+           given={Dr.\bibnamedelimi Medien},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Waddi Addawasir, Saudi Arabia}%
+      }
+      \list{publisher}{1}{%
+        {College of Engineering Waddi Addawasir}%
+      }
+      \strng{namehash}{cb3e42f3f714c12e6e25cb578b025b76}
+      \strng{fullhash}{cb3e42f3f714c12e6e25cb578b025b76}
+      \strng{bibnamehash}{cb3e42f3f714c12e6e25cb578b025b76}
+      \strng{authorbibnamehash}{cb3e42f3f714c12e6e25cb578b025b76}
+      \strng{authornamehash}{cb3e42f3f714c12e6e25cb578b025b76}
+      \strng{authorfullhash}{cb3e42f3f714c12e6e25cb578b025b76}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Digital Electronics}
+      \field{title}{Digital Signal Processing, DSP}
+      \field{year}{2014}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

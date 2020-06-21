@@ -1,0 +1,99 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}define F\PYGZus{}CPU 16000000UL}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}avr/io.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}avr/eeprom.h\PYGZgt{} }
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}util/delay.h\PYGZgt{} }
+\PYG{c+c1}{// \PYGZsh{}include \PYGZlt{}stdint.h\PYGZgt{} Not needed }
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZdq{}lcd.h\PYGZdq{} }
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZdq{}keypad3x4.h\PYGZdq{}}
+
+\PYG{c+c1}{// Reserves an array of 3 bits, called \PYGZdq{}code\PYGZdq{} in the EEPROM}
+
+\PYG{k+kt}{uint8\PYGZus{}t} \PYG{n}{EEMEM} \PYG{n}{pass}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{];}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+	\PYG{c+c1}{// Assigns the value 123 to the constant password}
+
+	\PYG{k+kt}{char} \PYG{n}{password}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{]} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}123\PYGZdq{}}\PYG{p}{;}
+		
+	\PYG{c+cm}{/* The variable password is written in the memory address associated }
+\PYG{c+cm}{	to code */}
+
+	\PYG{n}{eeprom\PYGZus{}write\PYGZus{}byte}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{pass}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{n}{password}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]);}
+	\PYG{n}{eeprom\PYGZus{}write\PYGZus{}byte}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{pass}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{],} \PYG{n}{password}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]);}
+	\PYG{n}{eeprom\PYGZus{}write\PYGZus{}byte}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{pass}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{],} \PYG{n}{password}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]);}
+
+	\PYG{c+c1}{// Sets PC0 as output}
+
+	\PYG{n}{DDRC} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{DDC0}\PYG{p}{);} \PYG{c+cm}{/* Pin PC0 as output */}
+		
+	\PYG{c+cm}{/* Initialization of display}
+\PYG{c+cm}{	   Display on, cursor off */}
+
+	\PYG{n}{lcd\PYGZus{}init}\PYG{p}{(}\PYG{n}{LCD\PYGZus{}DISP\PYGZus{}ON}\PYG{p}{);} 
+
+	\PYG{k+kt}{char} \PYG{n}{key}\PYG{p}{;}
+	\PYG{k+kt}{char} \PYG{n}{keyarr}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{];}
+	\PYG{k+kt}{char} \PYG{n}{dumpeeprom}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{];}
+		
+    \PYG{k}{while} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)} 
+    \PYG{p}{\PYGZob{}}
+		
+		\PYG{n}{lcd\PYGZus{}clrscr}\PYG{p}{();} \PYG{c+c1}{//Clear display and set cursor to home position (0,0)}
+		\PYG{n}{lcd\PYGZus{}puts}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Digit:\PYGZdq{}}\PYG{p}{);}
+					
+		\PYG{k+kt}{int} \PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;}
+
+		\PYG{c+cm}{/* Reads the introduced password and stores it into an array }
+\PYG{c+cm}{		called keyarr. */}
+
+		\PYG{k}{while}\PYG{p}{(}\PYG{n}{i}\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{3}\PYG{p}{)\PYGZob{}}
+			
+			\PYG{n}{key} \PYG{o}{=} \PYG{n}{GetKeyPressed}\PYG{p}{();} \PYG{c+c1}{//Get the keycode of pressed key}
+						
+			\PYG{k}{if} \PYG{p}{(}\PYG{n}{key} \PYG{o}{!=} \PYG{l+m+mi}{0}\PYG{n}{XFF}\PYG{p}{)} \PYG{p}{\PYGZob{}} \PYG{c+c1}{//No key press: No display}
+							
+				\PYG{n}{lcd\PYGZus{}gotoxy}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{);} \PYG{c+c1}{//Set cursor to second line}
+				\PYG{n}{lcd\PYGZus{}putc}\PYG{p}{(}\PYG{n}{key}\PYG{p}{);} \PYG{c+c1}{//Display Key}
+				\PYG{n}{keyarr}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{key}\PYG{p}{;} \PYG{c+c1}{//Save Key pressed}
+				\PYG{n}{i}\PYG{o}{++}\PYG{p}{;}
+			\PYG{p}{\PYGZcb{}}
+						
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{300}\PYG{p}{);}
+						
+		\PYG{p}{\PYGZcb{}}
+		
+		
+		\PYG{c+c1}{// Dumps the contents of the EEPROM into an arrays called dumpeeprom. }
+		
+		\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{i}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{i}\PYG{o}{\PYGZlt{}}\PYG{l+m+mi}{3}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)\PYGZob{}}
+			
+			\PYG{n}{dumpeeprom}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{eeprom\PYGZus{}read\PYGZus{}byte}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{pass}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]);}
+			
+		\PYG{p}{\PYGZcb{}}
+		
+		\PYG{c+c1}{// Checks that whether the password is correct or not.}
+	
+		\PYG{k}{if}\PYG{p}{(}\PYG{n}{dumpeeprom}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{==} \PYG{n}{keyarr}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{dumpeeprom}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{==} \PYG{n}{keyarr}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} 
+		   \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{dumpeeprom}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{==} \PYG{n}{keyarr}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{])\PYGZob{}}
+			
+			\PYG{n}{lcd\PYGZus{}clrscr}\PYG{p}{();} \PYG{c+c1}{//Clear display and set cursor to (0,0)}
+			\PYG{n}{lcd\PYGZus{}puts}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}CORRECT\PYGZdq{}}\PYG{p}{);}
+						
+			\PYG{n}{PORTC} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{PORTC0}\PYG{p}{);}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{);}
+			\PYG{n}{PORTC} \PYG{o}{\PYGZam{}=} \PYG{o}{\PYGZti{}}\PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{PORTC0}\PYG{p}{);}
+			
+		\PYG{p}{\PYGZcb{}}
+		\PYG{k}{else}\PYG{p}{\PYGZob{}}
+			
+			\PYG{n}{lcd\PYGZus{}clrscr}\PYG{p}{();} \PYG{c+c1}{//Clear display and set cursor to (0,0)}
+			\PYG{n}{lcd\PYGZus{}puts}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}INCORRECT\PYGZdq{}}\PYG{p}{);}
+			\PYG{n}{PORTC} \PYG{o}{\PYGZam{}=} \PYG{o}{\PYGZti{}}\PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{PORTC0}\PYG{p}{);}
+			\PYG{n}{\PYGZus{}delay\PYGZus{}ms}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{);}
+			
+		\PYG{p}{\PYGZcb{}}	
+	\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

@@ -142,6 +142,9 @@
 \stepcounter{secnumdepth}
 \stepcounter{tocdepth}
 
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
 % Hyperlinks settings
 
 \usepackage{hyperref}
@@ -168,6 +171,8 @@
 
 % Includes the title page
 \include{Title_Page}
+
+\input{Sections/Preface.tex}
 
 % Table of contents
 
@@ -211,6 +216,9 @@
 \clearpage
 
 \input{Sections/MICROS/Lab1_uC.tex}
+\input{Sections/MICROS/Lab2_uC.tex}
+\input{Sections/MICROS/Lab3_uC.tex}
+\input{Sections/MICROS/Lab4_uC.tex}
 
 \clearpage
 \addcontentsline{toc}{section}{References}

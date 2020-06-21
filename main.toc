@@ -67,8 +67,33 @@
 \contentsline {subsection}{\numberline {9.1}Introduction}{69}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Arduino}{70}{subsection.9.2}%
 \contentsline {subsection}{\numberline {9.3}I/O Ports}{71}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}C Applied to Microcontrollers}{73}{subsection.9.4}%
-\contentsline {subsubsection}{\numberline {9.4.1}Reading from an I/O Register}{73}{subsubsection.9.4.1}%
-\contentsline {subsubsection}{\numberline {9.4.2}Writing to an I/O Register}{74}{subsubsection.9.4.2}%
-\contentsline {subsection}{\numberline {9.5}Exercise 1: Stepper Motor Controller}{75}{subsection.9.5}%
-\contentsline {section}{References}{78}{figure.caption.78}%
+\contentsline {subsection}{\numberline {9.4}C Applied to Microcontrollers}{74}{subsection.9.4}%
+\contentsline {subsubsection}{\numberline {9.4.1}Reading from an I/O Register}{74}{subsubsection.9.4.1}%
+\contentsline {subsubsection}{\numberline {9.4.2}Writing to an I/O Register}{75}{subsubsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.5}Exercise 1: Stepper Motor Controller}{76}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Laboratory Lecture 2: Safe Code}{79}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Introduction}{79}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}16x2 LCD Display}{79}{subsubsection.10.1.1}%
+\contentsline {subsubsection}{\numberline {10.1.2}3x4 Keypad}{82}{subsubsection.10.1.2}%
+\contentsline {subsubsection}{\numberline {10.1.3}EEPROM}{83}{subsubsection.10.1.3}%
+\contentsline {subsection}{\numberline {10.2}Exercise 1: Safe Code}{84}{subsection.10.2}%
+\contentsline {section}{\numberline {11}Laboratory Lecture 3: Temperature Measuring using the LM35 sensor.}{87}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Introduction}{87}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}Interrupts}{87}{subsubsection.11.1.1}%
+\contentsline {paragraph}{\numberline {11.1.1.1}Enabling Interrupts}{88}{paragraph.11.1.1.1}%
+\contentsline {paragraph}{\numberline {11.1.1.2}Types of Interrupts}{89}{paragraph.11.1.1.2}%
+\contentsline {paragraph}{\numberline {11.1.1.3}External Interrupts: INT0-INT1}{90}{paragraph.11.1.1.3}%
+\contentsline {paragraph}{\numberline {11.1.1.4}External Interrupts: PCINT[23:0]}{91}{paragraph.11.1.1.4}%
+\contentsline {subsubsection}{\numberline {11.1.2}Peripheral Modules}{93}{subsubsection.11.1.2}%
+\contentsline {paragraph}{\numberline {11.1.2.1}Analog Comparator}{93}{paragraph.11.1.2.1}%
+\contentsline {paragraph}{\numberline {11.1.2.2}Analog-to-Digital Converter}{97}{paragraph.11.1.2.2}%
+\contentsline {subsection}{\numberline {11.2}Exercise 1: Temperature measurement using LM35 sensor}{103}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Laboratory Lecture 4: Servomotor Control}{106}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Introduction}{106}{subsection.12.1}%
+\contentsline {subsubsection}{\numberline {12.1.1}Timers}{106}{subsubsection.12.1.1}%
+\contentsline {paragraph}{\numberline {12.1.1.1}Timer events}{107}{paragraph.12.1.1.1}%
+\contentsline {paragraph}{\numberline {12.1.1.2}Prescaler}{109}{paragraph.12.1.1.2}%
+\contentsline {paragraph}{\numberline {12.1.1.3}Configuration of timers}{110}{paragraph.12.1.1.3}%
+\contentsline {paragraph}{\numberline {12.1.1.4}PWM: Pulse-Width Modulation}{113}{paragraph.12.1.1.4}%
+\contentsline {subsection}{\numberline {12.2}Exercise 1: Servomotor Control}{115}{subsection.12.2}%
+\contentsline {section}{References}{121}{figure.caption.132}%

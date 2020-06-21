@@ -1,0 +1,97 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}define F\PYGZus{}CPU16000000UL}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}avr/io.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdint.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}avr/interrupt.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}util/delay.h\PYGZgt{}}
+
+\PYG{k+kt}{float} \PYG{n}{OCR0A\PYGZus{}from\PYGZus{}pot}\PYG{p}{;}
+
+\PYG{c+cm}{/* State Machine containing the possible system states */}
+\PYG{k}{enum} \PYG{n}{state}\PYG{p}{\PYGZob{}}
+
+	\PYG{n}{pulse} \PYG{p}{,}
+	\PYG{n}{wait\PYGZus{}1}\PYG{p}{,}
+	\PYG{n}{wait\PYGZus{}2}	
+
+\PYG{p}{\PYGZcb{}} \PYG{n}{system\PYGZus{}state}\PYG{p}{;}
+
+
+
+\PYG{k+kt}{int} \PYG{n+nf}{main}\PYG{p}{(}\PYG{k+kt}{void}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+	\PYG{c+cm}{/* ADC Configuration*/}
+	
+	\PYG{n}{ADMUX}  \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{REFS0}\PYG{p}{);}           \PYG{c+cm}{/* Use AVccas the reference */}
+	\PYG{n}{ADMUX}  \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{MUX2}\PYG{p}{);}			\PYG{c+cm}{/* Set address pin to ADC4 (0100) */}
+	\PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADATE}\PYG{p}{);}           \PYG{c+cm}{/* Set ADC Auto Trigger */}
+	
+	\PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADPS2}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADPS1}\PYG{p}{)}\PYG{o}{|}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADPS0}\PYG{p}{);}  \PYG{c+cm}{/* 128 prescaler for ADC */}
+	\PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADEN}\PYG{p}{);}            \PYG{c+cm}{/* Enable the ADC */}
+	\PYG{n}{ADCSRA} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADIE}\PYG{p}{);}            \PYG{c+cm}{/* Enable Interrupts */}
+	
+
+	\PYG{c+cm}{/* Timer configuration */}
+	
+	\PYG{n}{DDRB} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{DDB5}\PYG{p}{);}           \PYG{c+cm}{/* Set Pin 5 of Port B as output */}
+	\PYG{n}{TCCR0A} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{WGM01}\PYG{p}{);}      \PYG{c+cm}{/* Set the Timer Mode to CTC */}
+	\PYG{n}{OCR0A} \PYG{o}{=} \PYG{l+m+mi}{46}\PYG{p}{;}                  \PYG{c+cm}{/* (Initial Value) Set the value that you want }
+\PYG{c+cm}{								    to count to  */}
+	\PYG{n}{TIMSK0} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{OCIE0A}\PYG{p}{);}     \PYG{c+cm}{/* Set the ISR COMPA vect */}
+	
+	\PYG{n}{sei}\PYG{p}{();}
+	
+	\PYG{n}{ADCSRA} \PYG{o}{|=}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{ADSC}\PYG{p}{);}          \PYG{c+cm}{/* Start the ADC conversion */}
+	
+	\PYG{n}{TCCR0B} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{CS02}\PYG{p}{);}       \PYG{c+cm}{/* (Initial Value) Set prescaler to 256 and}
+\PYG{c+cm}{								     start the timer */}
+	
+	\PYG{n}{system\PYGZus{}state} \PYG{o}{=} \PYG{n}{pulse}\PYG{p}{;}		 \PYG{c+cm}{/* Initial State */}
+	
+	\PYG{k}{while}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+	\PYG{p}{\PYGZob{}}
+		\PYG{c+cm}{/* No actions are performed in the main loop */}			
+	\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+cm}{/* ADC Interrupt */}
+
+\PYG{n}{ISR}\PYG{p}{(}\PYG{n}{ADC\PYGZus{}vect}\PYG{p}{)\PYGZob{}}
+
+	\PYG{n}{OCR0A\PYGZus{}from\PYGZus{}pot} \PYG{o}{=} \PYG{p}{(}\PYG{n}{ADCW}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mf}{94.0}\PYG{o}{/}\PYG{l+m+mf}{1023.0}\PYG{p}{))} \PYG{o}{+} \PYG{l+m+mf}{46.0}\PYG{p}{;} \PYG{c+cm}{/* For ADCW = 0 \PYGZhy{}\PYGZgt{} 46 }
+\PYG{c+cm}{												  For ADCW = 1023 \PYGZhy{}\PYGZgt{} 140 */}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+cm}{/* Timer\PYGZus{}0 Interrupt and FSM describing the output pulse */}
+
+\PYG{n}{ISR}\PYG{p}{(}\PYG{n}{TIMER0\PYGZus{}COMPA\PYGZus{}vect}\PYG{p}{)\PYGZob{}}
+	
+	\PYG{k}{switch}\PYG{p}{(}\PYG{n}{system\PYGZus{}state}\PYG{p}{)\PYGZob{}}
+
+		\PYG{k}{case} \PYG{n+nl}{pulse}\PYG{p}{:} \PYG{c+cm}{/* Output a pulse with width defined by the ADC4 reading */}
+			\PYG{n}{OCR0A} \PYG{o}{=} \PYG{p}{(}\PYG{k+kt}{uint8\PYGZus{}t}\PYG{p}{)}\PYG{n}{OCR0A\PYGZus{}from\PYGZus{}pot}\PYG{p}{;}
+			
+			\PYG{n}{TCCR0B} \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{CS02}\PYG{p}{);}
+			\PYG{n}{TCCR0B} \PYG{o}{\PYGZam{}=} \PYG{o}{\PYGZti{}}\PYG{p}{((}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{CS00}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{CS01}\PYG{p}{));}
+			
+			\PYG{n}{PORTB}  \PYG{o}{|=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{PORTB5}\PYG{p}{);}
+			
+			\PYG{n}{system\PYGZus{}state} \PYG{o}{=} \PYG{n}{wait\PYGZus{}1}\PYG{p}{;}
+			\PYG{k}{break}\PYG{p}{;}
+		
+		\PYG{k}{case} \PYG{n+nl}{wait\PYGZus{}1}\PYG{p}{:} \PYG{c+cm}{/* Output a 10ms LOW value */}
+			\PYG{n}{OCR0A} \PYG{o}{=} \PYG{l+m+mi}{156}\PYG{p}{;}
+			\PYG{n}{TCCR0B} \PYG{o}{|=} \PYG{p}{((}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{CS02}\PYG{p}{)} \PYG{o}{|} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{CS00}\PYG{p}{));}
+			\PYG{n}{TCCR0B} \PYG{o}{\PYGZam{}=} \PYG{o}{\PYGZti{}}\PYG{p}{((}\PYG{l+m+mi}{1} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{CS01}\PYG{p}{));}
+			\PYG{n}{PORTB}  \PYG{o}{\PYGZam{}=} \PYG{o}{\PYGZti{}}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZlt{}\PYGZlt{}}\PYG{n}{PORTB5}\PYG{p}{);}
+			
+			\PYG{n}{system\PYGZus{}state} \PYG{o}{=} \PYG{n}{wait\PYGZus{}2}\PYG{p}{;}
+			\PYG{k}{break}\PYG{p}{;}
+			
+		\PYG{k}{case} \PYG{n+nl}{wait\PYGZus{}2}\PYG{p}{:} \PYG{c+cm}{/* Output a second 10ms LOW value */}
+					
+			\PYG{n}{system\PYGZus{}state} \PYG{o}{=} \PYG{n}{pulse}\PYG{p}{;}
+			\PYG{k}{break}\PYG{p}{;}			
+	\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
